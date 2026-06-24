@@ -1,0 +1,62 @@
+{
+  "disposals": {
+    "type": "normal",
+    "resid_std": 4.9786,
+    "disp_pct": 0.3187,
+    "mean": 15.4329
+  },
+  "kicks": {
+    "type": "normal",
+    "resid_std": 3.5896,
+    "disp_pct": 0.387,
+    "mean": 9.1448
+  },
+  "handballs": {
+    "type": "normal",
+    "resid_std": 2.9712,
+    "disp_pct": 0.4679,
+    "mean": 6.2881
+  },
+  "marks": {
+    "type": "normal",
+    "resid_std": 2.2911,
+    "disp_pct": 0.5725,
+    "mean": 3.9316
+  },
+  "tackles": {
+    "type": "normal",
+    "resid_std": 1.8729,
+    "disp_pct": 0.7243,
+    "mean": 2.6157
+  },
+  "totalClearances": {
+    "type": "normal",
+    "resid_std": 1.4912,
+    "disp_pct": 0.9397,
+    "mean": 1.6205
+  },
+  "hitouts": {
+    "type": "normal",
+    "resid_std": 2.2909,
+    "disp_pct": 1.3757,
+    "mean": 1.6753
+  },
+  "dreamTeamPoints": {
+    "type": "normal",
+    "resid_std": 21.9593,
+    "disp_pct": 0.3301,
+    "mean": 65.9095
+  },
+  "goals": {
+    "type": "poisson",
+    "resid_std": 0.7665,
+    "disp_pct": 1.4484,
+    "mean": 0.5335
+  },
+  "behinds": {
+    "type": "poisson",
+    "resid_std": 0.6197,
+    "disp_pct": 1.6207,
+    "mean": 0.3761
+  }
+}

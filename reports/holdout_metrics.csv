@@ -1,0 +1,11 @@
+target,type,n,model_mae,baseline_mae,improvement_pct
+disposals,normal,19608,3.864,4.107,5.9
+kicks,normal,19608,2.82,2.977,5.3
+handballs,normal,19608,2.3,2.426,5.2
+marks,normal,19608,1.813,1.922,5.7
+tackles,normal,19608,1.422,1.52,6.4
+totalClearances,normal,19608,1.012,1.051,3.7
+hitouts,normal,19608,0.62,0.604,-2.7
+dreamTeamPoints,normal,19608,17.326,18.426,6.0
+goals,poisson,19608,0.512,0.518,1.2
+behinds,poisson,19608,0.429,0.438,2.0
