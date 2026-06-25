@@ -1,0 +1,44 @@
+name: predict
+# Every 3h: re-fetch the round rosters and re-emit artifacts/projection_inputs.json
+# using the already-committed trained model. This is the lightweight step that
+# carries a new/changed AFL lineup through to the AFL-23-0 site between the daily
+# trains in model.yml. No ingest/train here — just predict.
+on:
+  schedule:
+    - cron: "0 */3 * * *"   # every 3 hours
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: afl-model          # shared with model.yml so commits never race
+  cancel-in-progress: false
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      # Uses the committed models/*.joblib, player_match.parquet and dispersion.json.
+      - run: python src/predict.py
+      - name: Commit refreshed projections
+        run: |
+          git config user.name  "afl-model-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add artifacts/projection_inputs.json
+          if git diff --cached --quiet; then
+            echo "No projection changes to commit."
+            exit 0
+          fi
+          git commit -m "Refresh projection inputs (lineups) [skip ci]"
+          for i in 1 2 3 4 5; do
+            git push origin HEAD:main && exit 0
+            echo "Push rejected (attempt $i) — rebasing onto latest main..."
+            git fetch origin main
+            git rebase -X theirs origin/main || { git rebase --abort; exit 1; }
+          done
+          echo "Failed to push after 5 attempts." >&2
+          exit 1

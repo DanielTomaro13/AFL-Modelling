@@ -20,6 +20,11 @@ jobs:
       - run: python src/ingest.py
       - run: python src/features.py
       - run: python src/train.py
+      # Emit projection_inputs.json for the next round. predict.py fetches the
+      # round rosters (confirmed lineups when available, else most-recent-XVIII
+      # proxy), so this is what carries new lineups through to the AFL-23-0 site.
+      # The lighter predict.yml re-runs this alone every 3h between daily trains.
+      - run: python src/predict.py
       - name: Commit refreshed artifacts
         run: |
           git config user.name  "afl-model-bot"
