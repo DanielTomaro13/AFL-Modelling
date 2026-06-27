@@ -9,7 +9,7 @@ Only factual sporting data (player stat lines, fixtures) is read. Every fetch
 is cached to data/raw/ so re-runs are free and the historical sweep is resumable.
 No API key is required.
 """
-import json, os, time, hashlib, urllib.request, urllib.error
+import json, os, time, hashlib, http.client, urllib.request, urllib.error
 from urllib.parse import urlencode
 
 BASE = "https://api.afl.com.au"
@@ -68,7 +68,10 @@ def _live_get(path, params):
             elif e.code == 404:
                 return None         # round/match doesn't exist
             time.sleep(1.2 * (attempt + 1))
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+        except (urllib.error.URLError, TimeoutError, ConnectionError,
+                http.client.HTTPException, json.JSONDecodeError):
+            # http.client.HTTPException covers IncompleteRead — a chunked
+            # response truncated mid-stream by the server. Transient: retry.
             time.sleep(1.2 * (attempt + 1))
     raise RuntimeError(f"AFL API failed after retries: {url}")
 
