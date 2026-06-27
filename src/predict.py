@@ -95,7 +95,12 @@ def main():
 
     fixtures = fixtures_for(season, rnd)
     if not fixtures:
-        print(f"No fixtures for {season} R{rnd}", file=sys.stderr); sys.exit(1)
+        # Normal between rounds: the upcoming round's rosters aren't published
+        # yet. Nothing to project — exit cleanly so the daily train/commit
+        # pipeline still succeeds. The 3-hourly predict run will emit
+        # projection_inputs.json as soon as the fixtures/rosters appear.
+        print(f"No fixtures yet for {season} R{rnd} — skipping projections.")
+        return
     print(f"{season} R{rnd}: {len(fixtures)} fixtures")
 
     ph = build_placeholders(hist, fixtures, season, rnd)
