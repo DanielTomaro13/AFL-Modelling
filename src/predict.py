@@ -9,7 +9,7 @@ Lineups: confirmed roster if available, else a proxy = each team's most recent X
 
 Usage:
   python src/predict.py <season> <round>        # e.g. 2026 15
-  python src/predict.py                          # auto: latest round with a fixture
+  python src/predict.py                          # auto: next round that isn't fully played
 """
 import os, sys, json, datetime
 import numpy as np
@@ -26,8 +26,8 @@ OUT = "artifacts/projection_inputs.json"
 TARGETS = F.TARGETS
 
 
-def fixtures_for(season, rnd):
-    rosters = api.match_rosters_round(season, rnd)
+def fixtures_for(season, rnd, force=False):
+    rosters = api.match_rosters_round(season, rnd, force=force)
     out = []
     for item in (rosters or []):
         mt = (item or {}).get("match") or {}
@@ -43,6 +43,26 @@ def fixtures_for(season, rnd):
             "status": mt.get("status"),
         })
     return out
+
+
+def upcoming_round(season, base, lookahead=8):
+    """The round to project, chosen from the SCHEDULE rather than from results
+    ingestion: the first round at or after `base` that still has a match which
+    hasn't CONCLUDED. This advances to the next round the moment the current one
+    finishes, instead of keying off `max(played round in history) + 1` — which
+    leaves the site stuck re-projecting an already-played round for days until
+    that round's results are ingested into history.
+
+    Fetched with force=True so round status is live (not a stale on-disk cache).
+    Returns (round_number, fixtures) or (None, []) if nothing upcoming is found.
+    """
+    for rnd in range(base, base + lookahead):
+        fx = fixtures_for(season, rnd, force=True)
+        if not fx:
+            continue
+        if any((f.get("status") or "").upper() != "CONCLUDED" for f in fx):
+            return rnd, fx
+    return None, []
 
 
 def proxy_lineup(hist, team_id, before_date):
@@ -89,16 +109,20 @@ def main():
 
     if len(sys.argv) >= 3:
         season, rnd = int(sys.argv[1]), int(sys.argv[2])
+        fixtures = fixtures_for(season, rnd)
     else:
         season = int(hist["season"].max())
-        rnd = int(hist[hist["season"] == season]["round"].max()) + 1
+        # Start from the last round present in history (which may still be in
+        # progress) and walk forward to the first round that isn't fully played.
+        base = int(hist[hist["season"] == season]["round"].max())
+        rnd, fixtures = upcoming_round(season, base)
+        if rnd is None:
+            # End of season / no scheduled fixtures ahead. Leave the last
+            # projection_inputs.json in place and exit cleanly.
+            print("No upcoming round with fixtures — skipping projections.")
+            return
 
-    fixtures = fixtures_for(season, rnd)
     if not fixtures:
-        # Normal between rounds: the upcoming round's rosters aren't published
-        # yet. Nothing to project — exit cleanly so the daily train/commit
-        # pipeline still succeeds. The 3-hourly predict run will emit
-        # projection_inputs.json as soon as the fixtures/rosters appear.
         print(f"No fixtures yet for {season} R{rnd} — skipping projections.")
         return
     print(f"{season} R{rnd}: {len(fixtures)} fixtures")
