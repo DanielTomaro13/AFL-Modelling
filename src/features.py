@@ -6,11 +6,13 @@ Every trailing feature uses only games STRICTLY BEFORE the current one
 
 Builds, per player-match:
   - trailing means (r3/r5/r10) + EWM of targets & core stats
+  - trailing per-time-on-ground rates of targets (separates "played less" from "played worse")
   - season-to-date and career-to-date means
   - role/position encodings, is_ruck, kicking foot, home, venue, weather
-  - experience (career games), days rest
+  - experience (career games), days rest, interstate travel
   - player's trailing share of team total
-  - opponent-conceded rollups (how much the opponent typically allows)
+  - opponent-conceded rollups, overall and split by role (what the opponent
+    allows to rucks/mids/etc. — the matchup that actually applies to this player)
 
 Output:
   data/processed/features.parquet
@@ -57,6 +59,14 @@ def add_trailing(df):
             lambda s: s.ewm(halflife=3, min_periods=1).mean())
         cols[f"{stat}_career"] = sh.groupby(pid, sort=False).transform(
             lambda s: s.expanding(min_periods=1).mean())  # career-to-date, shifted
+    # per-time-on-ground rates: a sub/injury-shortened game (~5% of rows) drags
+    # raw trailing means down; the rate keeps output-per-minute-played clean
+    tog = df["timeOnGroundPercentage"].clip(lower=25) / 100.0
+    for stat in TARGETS:
+        sh = (df[stat] / tog).groupby(pid, sort=False).shift(1)
+        cols[f"{stat}_ptog_r5"] = _roll(sh, pid, 5)
+        cols[f"{stat}_ptog_ewm"] = sh.groupby(pid, sort=False).transform(
+            lambda s: s.ewm(halflife=3, min_periods=1).mean())
     # season-to-date mean of each target (expanding within player+season)
     for stat in TARGETS:
         sh = df.groupby(["player_id", "season"])[stat].shift(1)
@@ -107,16 +117,55 @@ def add_opponent_conceded(df):
     return df.copy()  # de-fragment after the many column inserts
 
 
-def add_categoricals(df):
+def _role_series(df):
     pos = df["position"].fillna("UNKNOWN")
-    df["is_ruck"] = pos.str.contains("RUCK").astype("int8")
-    role = np.select(
+    return pd.Series(np.select(
         [pos.str.contains("RUCK"),
          pos.str.contains("DEF"),
          pos.str.contains("MID"),
          pos.str.contains("FORWARD") | pos.str.contains("FWD")],
-        ["RUCK", "DEF", "MID", "FWD"], default="OTHER")
-    df["role"] = role
+        ["RUCK", "DEF", "MID", "FWD"], default="OTHER"), index=df.index)
+
+
+def add_opponent_conceded_role(df):
+    """Opponent's trailing concessions to THIS player's role (matchup feature).
+    Team-wide conceded hitouts say little to a ruck; conceded-to-rucks does."""
+    role = _role_series(df)
+    grp = (df.assign(_role=role)
+           .groupby(["match_id", "opponent_id", "_role"], as_index=False)[TARGETS].sum()
+           .rename(columns={"opponent_id": "conc_team",
+                            **{t: f"rc_{t}" for t in TARGETS}}))
+    md = df.drop_duplicates("match_id")[["match_id", "date"]]
+    grp = grp.merge(md, on="match_id").sort_values(["conc_team", "_role", "date"])
+    for t in TARGETS:
+        sh = grp.groupby(["conc_team", "_role"])[f"rc_{t}"].shift(1)
+        grp[f"opp_conc_role_{t}_r5"] = sh.groupby(
+            [grp["conc_team"], grp["_role"]], sort=False).transform(
+            lambda s: s.rolling(5, min_periods=1).mean())
+    keep = ["match_id", "conc_team", "_role"] + [f"opp_conc_role_{t}_r5" for t in TARGETS]
+    cm = grp[keep].drop_duplicates(subset=["match_id", "conc_team", "_role"], keep="first")
+    df = (df.assign(_role=role)
+          .merge(cm, left_on=["match_id", "opponent_id", "_role"],
+                 right_on=["match_id", "conc_team", "_role"], how="left")
+          .drop(columns=["conc_team", "_role"]))
+    return df.copy()
+
+
+def add_travel(df):
+    """Interstate travel: playing in a state that isn't the team's home state."""
+    home = df[pd.to_numeric(df["is_home"], errors="coerce") == 1]
+    hs = home.groupby("team_id")["venue_state"].agg(
+        lambda s: s.mode().iat[0] if not s.mode().empty else None)
+    home_state = df["team_id"].map(hs)
+    df["travel"] = (df["venue_state"].notna() & home_state.notna()
+                    & (df["venue_state"] != home_state)).astype("int8")
+    return df
+
+
+def add_categoricals(df):
+    pos = df["position"].fillna("UNKNOWN")
+    df["is_ruck"] = pos.str.contains("RUCK").astype("int8")
+    df["role"] = _role_series(df)
     df["role_code"] = pd.Categorical(df["role"]).codes
     df["pos_code"] = pd.Categorical(pos).codes
     df["foot_right"] = (df["kicking_foot"] == "RIGHT").astype("int8")
@@ -129,7 +178,9 @@ def main():
     df = add_trailing(df)
     df = add_team_share(df)
     df = add_opponent_conceded(df)
+    df = add_opponent_conceded_role(df)
     df = add_categoricals(df)
+    df = add_travel(df)
     df = df.sort_values(["date", "match_id", "team_id", "player_id"]).reset_index(drop=True)
 
     # assemble model feature column list (numeric, leakage-safe)
@@ -139,8 +190,10 @@ def main():
     feat += [f"{t}_std" for t in TARGETS]
     feat += [f"{t}_share_r5" for t in TARGETS]
     feat += [f"opp_conc_{t}_r5" for t in TARGETS]
+    feat += [f"opp_conc_role_{t}_r5" for t in TARGETS]
+    feat += [f"{t}_ptog_r5" for t in TARGETS] + [f"{t}_ptog_ewm" for t in TARGETS]
     feat += ["career_games", "days_rest", "is_ruck", "role_code", "pos_code",
-             "foot_right", "is_home", "age", "height_cm", "temp_c"]
+             "foot_right", "is_home", "age", "height_cm", "temp_c", "travel"]
     feat = [c for c in feat if c in df.columns]
 
     os.makedirs("artifacts", exist_ok=True)

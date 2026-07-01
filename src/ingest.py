@@ -17,7 +17,7 @@ import pandas as pd
 import afl_api as api
 
 OUT = "data/processed/player_match.parquet"
-CURRENT_YEAR = 2026
+CURRENT_YEAR = datetime.date.today().year  # keeps ingest rolling into new seasons
 MAX_ROUND = int(os.environ.get("AFL_MAX_ROUND", "30"))
 
 # the 10 modelled targets (kept first for clarity)

@@ -1,62 +1,112 @@
 {
   "disposals": {
     "type": "normal",
-    "resid_std": 4.9786,
-    "disp_pct": 0.3187,
-    "mean": 15.4329
+    "resid_std": 4.9813,
+    "disp_pct": 0.3178,
+    "mean": 15.4329,
+    "sigma_a": 0.6776,
+    "sigma_b": 1.0884,
+    "sigma_floor": 3.0402,
+    "phi": 1.5828,
+    "team_cv": 0.0834
   },
   "kicks": {
     "type": "normal",
-    "resid_std": 3.5896,
-    "disp_pct": 0.387,
-    "mean": 9.1448
+    "resid_std": 3.5832,
+    "disp_pct": 0.3861,
+    "mean": 9.1448,
+    "sigma_a": 0.0468,
+    "sigma_b": 1.1607,
+    "sigma_floor": 2.1787,
+    "phi": 1.3834,
+    "team_cv": 0.0923
   },
   "handballs": {
     "type": "normal",
-    "resid_std": 2.9712,
-    "disp_pct": 0.4679,
-    "mean": 6.2881
+    "resid_std": 2.9757,
+    "disp_pct": 0.466,
+    "mean": 6.2881,
+    "sigma_a": -0.2303,
+    "sigma_b": 1.2659,
+    "sigma_floor": 1.43,
+    "phi": 1.3866,
+    "team_cv": 0.1364
   },
   "marks": {
     "type": "normal",
-    "resid_std": 2.2911,
-    "disp_pct": 0.5725,
-    "mean": 3.9316
+    "resid_std": 2.2914,
+    "disp_pct": 0.5743,
+    "mean": 3.9316,
+    "sigma_a": -0.0402,
+    "sigma_b": 1.1658,
+    "sigma_floor": 1.3218,
+    "phi": 1.316,
+    "team_cv": 0.2099
   },
   "tackles": {
     "type": "normal",
-    "resid_std": 1.8729,
-    "disp_pct": 0.7243,
-    "mean": 2.6157
+    "resid_std": 1.8759,
+    "disp_pct": 0.7247,
+    "mean": 2.6157,
+    "sigma_a": -0.3717,
+    "sigma_b": 1.39,
+    "sigma_floor": 0.9384,
+    "phi": 1.3595,
+    "team_cv": 0.2177
   },
   "totalClearances": {
     "type": "normal",
-    "resid_std": 1.4912,
-    "disp_pct": 0.9397,
-    "mean": 1.6205
+    "resid_std": 1.4947,
+    "disp_pct": 0.9491,
+    "mean": 1.6205,
+    "sigma_a": -0.0434,
+    "sigma_b": 1.2191,
+    "sigma_floor": 0.3147,
+    "phi": 1.4187,
+    "team_cv": 0.1974
   },
   "hitouts": {
     "type": "normal",
-    "resid_std": 2.2909,
-    "disp_pct": 1.3757,
-    "mean": 1.6753
+    "resid_std": 2.3046,
+    "disp_pct": 1.4001,
+    "mean": 1.6753,
+    "sigma_a": -0.2619,
+    "sigma_b": 1.8762,
+    "sigma_floor": 0.2,
+    "phi": 3.2266,
+    "team_cv": 0.3289
   },
   "dreamTeamPoints": {
     "type": "normal",
-    "resid_std": 21.9593,
-    "disp_pct": 0.3301,
-    "mean": 65.9095
+    "resid_std": 21.9382,
+    "disp_pct": 0.3287,
+    "mean": 65.9095,
+    "sigma_a": 12.6953,
+    "sigma_b": 1.1348,
+    "sigma_floor": 15.7843,
+    "phi": 7.2112,
+    "team_cv": 0.0875
   },
   "goals": {
     "type": "poisson",
-    "resid_std": 0.7665,
-    "disp_pct": 1.4484,
-    "mean": 0.5335
+    "resid_std": 0.7706,
+    "disp_pct": 1.458,
+    "mean": 0.5335,
+    "sigma_a": 0.0154,
+    "sigma_b": 1.0406,
+    "sigma_floor": 0.2,
+    "phi": 1.1235,
+    "team_cv": 0.3213
   },
   "behinds": {
     "type": "poisson",
-    "resid_std": 0.6197,
-    "disp_pct": 1.6207,
-    "mean": 0.3761
+    "resid_std": 0.6215,
+    "disp_pct": 1.6261,
+    "mean": 0.3761,
+    "sigma_a": 0.032,
+    "sigma_b": 0.956,
+    "sigma_floor": 0.2,
+    "phi": 1.0105,
+    "team_cv": 0.3485
   }
 }

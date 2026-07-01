@@ -29,6 +29,6 @@ jobs:
         run: |
           git config user.name  "afl-model-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/processed/player_match.parquet models/*.joblib artifacts/*.json reports/*.csv reports/*.json || true
+          git add data/processed/player_match.parquet models/afl_models.joblib artifacts/*.json reports/*.csv || true
           git commit -m "Refresh model artifacts [skip ci]" || echo "nothing to commit"
           git push || echo "push skipped"
