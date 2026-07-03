@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "round": 17,
-  "generated": "2026-07-03T02:12:02.525186+00:00",
+  "generated": "2026-07-03T06:26:59.727721+00:00",
   "dispersion": {
     "disposals": {
       "type": "normal",
@@ -14421,18 +14421,18 @@
         "team": "Carlton",
         "lineup": "provisional",
         "team_total": {
-          "disposals": 397.51,
-          "goals": 13.62,
-          "kicks": 227.2,
-          "handballs": 167.07,
-          "marks": 114.58,
-          "tackles": 54.18,
-          "behinds": 10.62,
-          "totalClearances": 36.12,
-          "hitouts": 29.32,
-          "dreamTeamPoints": 1648.08
+          "disposals": 396.39,
+          "goals": 13.67,
+          "kicks": 226.74,
+          "handballs": 167.15,
+          "marks": 113.77,
+          "tackles": 54.35,
+          "behinds": 10.64,
+          "totalClearances": 36.51,
+          "hitouts": 31.71,
+          "dreamTeamPoints": 1643.95
         },
-        "exp_points": 92.3,
+        "exp_points": 92.7,
         "players": [
           {
             "player_id": "CD_I1000953",
@@ -14455,16 +14455,16 @@
               "dreamTeamPoints": 78.256
             },
             "share": {
-              "disposals": 0.03837,
-              "goals": 0.13236,
-              "kicks": 0.04541,
-              "handballs": 0.02449,
-              "marks": 0.05891,
-              "tackles": 0.03036,
-              "behinds": 0.14861,
-              "totalClearances": 0.05006,
-              "hitouts": 0.07779,
-              "dreamTeamPoints": 0.04748
+              "disposals": 0.03848,
+              "goals": 0.1319,
+              "kicks": 0.0455,
+              "handballs": 0.02448,
+              "marks": 0.05933,
+              "tackles": 0.03027,
+              "behinds": 0.14834,
+              "totalClearances": 0.04953,
+              "hitouts": 0.07193,
+              "dreamTeamPoints": 0.0476
             },
             "sigma": {
               "disposals": 4.928,
@@ -14500,16 +14500,16 @@
               "dreamTeamPoints": 80.214
             },
             "share": {
-              "disposals": 0.05229,
-              "goals": 0.02364,
-              "kicks": 0.04938,
-              "handballs": 0.05468,
-              "marks": 0.04537,
-              "tackles": 0.04797,
-              "behinds": 0.02204,
-              "totalClearances": 0.05087,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.04867
+              "disposals": 0.05244,
+              "goals": 0.02356,
+              "kicks": 0.04948,
+              "handballs": 0.05465,
+              "marks": 0.0457,
+              "tackles": 0.04782,
+              "behinds": 0.022,
+              "totalClearances": 0.05032,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.04879
             },
             "sigma": {
               "disposals": 5.64,
@@ -14545,16 +14545,16 @@
               "dreamTeamPoints": 98.58
             },
             "share": {
-              "disposals": 0.07262,
-              "goals": 0.03392,
-              "kicks": 0.05104,
-              "handballs": 0.09459,
-              "marks": 0.04015,
-              "tackles": 0.07411,
-              "behinds": 0.04106,
-              "totalClearances": 0.11696,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.05982
+              "disposals": 0.07283,
+              "goals": 0.0338,
+              "kicks": 0.05114,
+              "handballs": 0.09455,
+              "marks": 0.04044,
+              "tackles": 0.07387,
+              "behinds": 0.04099,
+              "totalClearances": 0.11571,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.05997
             },
             "sigma": {
               "disposals": 6.525,
@@ -14590,16 +14590,16 @@
               "dreamTeamPoints": 60.125
             },
             "share": {
-              "disposals": 0.03727,
-              "goals": 0.04008,
-              "kicks": 0.04226,
-              "handballs": 0.02932,
-              "marks": 0.03182,
-              "tackles": 0.03444,
-              "behinds": 0.03711,
-              "totalClearances": 0.02547,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.03648
+              "disposals": 0.03738,
+              "goals": 0.03994,
+              "kicks": 0.04235,
+              "handballs": 0.02931,
+              "marks": 0.03205,
+              "tackles": 0.03433,
+              "behinds": 0.03704,
+              "totalClearances": 0.0252,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.03657
             },
             "sigma": {
               "disposals": 4.867,
@@ -14635,16 +14635,16 @@
               "dreamTeamPoints": 64.275
             },
             "share": {
-              "disposals": 0.02875,
-              "goals": 0.10557,
-              "kicks": 0.03359,
-              "handballs": 0.02397,
-              "marks": 0.04999,
-              "tackles": 0.03341,
-              "behinds": 0.12601,
-              "totalClearances": 0.00593,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.039
+              "disposals": 0.02883,
+              "goals": 0.1052,
+              "kicks": 0.03366,
+              "handballs": 0.02395,
+              "marks": 0.05035,
+              "tackles": 0.0333,
+              "behinds": 0.12578,
+              "totalClearances": 0.00586,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.0391
             },
             "sigma": {
               "disposals": 4.357,
@@ -14680,16 +14680,16 @@
               "dreamTeamPoints": 56.107
             },
             "share": {
-              "disposals": 0.03582,
-              "goals": 0.00184,
-              "kicks": 0.03606,
-              "handballs": 0.03519,
-              "marks": 0.04605,
-              "tackles": 0.02411,
+              "disposals": 0.03592,
+              "goals": 0.00183,
+              "kicks": 0.03613,
+              "handballs": 0.03517,
+              "marks": 0.04637,
+              "tackles": 0.02403,
               "behinds": 0.0032,
-              "totalClearances": 0.0059,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.03404
+              "totalClearances": 0.00583,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.03413
             },
             "sigma": {
               "disposals": 4.785,
@@ -14725,16 +14725,16 @@
               "dreamTeamPoints": 55.076
             },
             "share": {
-              "disposals": 0.0295,
-              "goals": 0.06086,
-              "kicks": 0.03079,
-              "handballs": 0.02628,
-              "marks": 0.02472,
-              "tackles": 0.04701,
-              "behinds": 0.05679,
-              "totalClearances": 0.01393,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.03342
+              "disposals": 0.02958,
+              "goals": 0.06065,
+              "kicks": 0.03086,
+              "handballs": 0.02626,
+              "marks": 0.0249,
+              "tackles": 0.04686,
+              "behinds": 0.05669,
+              "totalClearances": 0.01378,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.0335
             },
             "sigma": {
               "disposals": 4.405,
@@ -14770,16 +14770,16 @@
               "dreamTeamPoints": 69.792
             },
             "share": {
-              "disposals": 0.04163,
-              "goals": 0.00316,
-              "kicks": 0.05047,
-              "handballs": 0.03261,
-              "marks": 0.06319,
-              "tackles": 0.0344,
-              "behinds": 0.0049,
-              "totalClearances": 0.0126,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.04235
+              "disposals": 0.04175,
+              "goals": 0.00315,
+              "kicks": 0.05057,
+              "handballs": 0.0326,
+              "marks": 0.06365,
+              "tackles": 0.03429,
+              "behinds": 0.00489,
+              "totalClearances": 0.01246,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.04245
             },
             "sigma": {
               "disposals": 5.105,
@@ -14815,16 +14815,16 @@
               "dreamTeamPoints": 75.273
             },
             "share": {
-              "disposals": 0.04543,
-              "goals": 0.02232,
-              "kicks": 0.04853,
-              "handballs": 0.04582,
-              "marks": 0.04858,
-              "tackles": 0.04326,
-              "behinds": 0.02025,
-              "totalClearances": 0.02935,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.04567
+              "disposals": 0.04556,
+              "goals": 0.02224,
+              "kicks": 0.04863,
+              "handballs": 0.0458,
+              "marks": 0.04893,
+              "tackles": 0.04313,
+              "behinds": 0.02021,
+              "totalClearances": 0.02904,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.04579
             },
             "sigma": {
               "disposals": 5.303,
@@ -14860,16 +14860,16 @@
               "dreamTeamPoints": 69.36
             },
             "share": {
-              "disposals": 0.04659,
-              "goals": 0.00609,
-              "kicks": 0.05035,
-              "handballs": 0.04545,
-              "marks": 0.04618,
-              "tackles": 0.03324,
-              "behinds": 0.00838,
-              "totalClearances": 0.01949,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.04209
+              "disposals": 0.04672,
+              "goals": 0.00607,
+              "kicks": 0.05045,
+              "handballs": 0.04543,
+              "marks": 0.04652,
+              "tackles": 0.03314,
+              "behinds": 0.00837,
+              "totalClearances": 0.01928,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.04219
             },
             "sigma": {
               "disposals": 5.362,
@@ -14905,16 +14905,16 @@
               "dreamTeamPoints": 82.636
             },
             "share": {
-              "disposals": 0.06044,
-              "goals": 0.0221,
-              "kicks": 0.04524,
-              "handballs": 0.08343,
-              "marks": 0.03261,
-              "tackles": 0.04472,
-              "behinds": 0.02402,
-              "totalClearances": 0.11497,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.05014
+              "disposals": 0.06061,
+              "goals": 0.02202,
+              "kicks": 0.04533,
+              "handballs": 0.08339,
+              "marks": 0.03284,
+              "tackles": 0.04458,
+              "behinds": 0.02397,
+              "totalClearances": 0.11374,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.05027
             },
             "sigma": {
               "disposals": 6.012,
@@ -14950,16 +14950,16 @@
               "dreamTeamPoints": 49.589
             },
             "share": {
-              "disposals": 0.02456,
-              "goals": 0.06798,
-              "kicks": 0.02749,
-              "handballs": 0.01997,
-              "marks": 0.0357,
-              "tackles": 0.03747,
-              "behinds": 0.05717,
-              "totalClearances": 0.00944,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.03009
+              "disposals": 0.02463,
+              "goals": 0.06774,
+              "kicks": 0.02754,
+              "handballs": 0.01996,
+              "marks": 0.03596,
+              "tackles": 0.03735,
+              "behinds": 0.05706,
+              "totalClearances": 0.00934,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.03016
             },
             "sigma": {
               "disposals": 4.078,
@@ -14972,51 +14972,6 @@
               "totalClearances": 0.668,
               "hitouts": 0.2,
               "dreamTeamPoints": 20.687
-            }
-          },
-          {
-            "player_id": "CD_I1033084",
-            "player": "Harry Dean",
-            "position": "KEY_DEFENDER",
-            "role": "DEF",
-            "named_pos": "CHB",
-            "is_ruck": 0,
-            "tog": 81.8,
-            "exp": {
-              "disposals": 11.971,
-              "goals": 0.027,
-              "kicks": 7.686,
-              "handballs": 4.451,
-              "marks": 5.578,
-              "tackles": 1.042,
-              "behinds": 0.024,
-              "totalClearances": 0.179,
-              "hitouts": 0.02,
-              "dreamTeamPoints": 51.385
-            },
-            "share": {
-              "disposals": 0.03011,
-              "goals": 0.00198,
-              "kicks": 0.03383,
-              "handballs": 0.02664,
-              "marks": 0.04868,
-              "tackles": 0.01923,
-              "behinds": 0.00226,
-              "totalClearances": 0.00496,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.03118
-            },
-            "sigma": {
-              "disposals": 4.443,
-              "goals": 0.174,
-              "kicks": 3.265,
-              "handballs": 2.44,
-              "marks": 2.713,
-              "tackles": 1.047,
-              "behinds": 0.156,
-              "totalClearances": 0.472,
-              "hitouts": 0.2,
-              "dreamTeamPoints": 20.83
             }
           },
           {
@@ -15040,16 +14995,16 @@
               "dreamTeamPoints": 39.224
             },
             "share": {
-              "disposals": 0.01915,
-              "goals": 0.06717,
-              "kicks": 0.02111,
+              "disposals": 0.0192,
+              "goals": 0.06694,
+              "kicks": 0.02115,
               "handballs": 0.01858,
-              "marks": 0.01874,
-              "tackles": 0.04173,
-              "behinds": 0.076,
-              "totalClearances": 0.00997,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.0238
+              "marks": 0.01887,
+              "tackles": 0.0416,
+              "behinds": 0.07586,
+              "totalClearances": 0.00986,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.02386
             },
             "sigma": {
               "disposals": 3.68,
@@ -15085,16 +15040,16 @@
               "dreamTeamPoints": 88.166
             },
             "share": {
-              "disposals": 0.06116,
-              "goals": 0.03839,
-              "kicks": 0.04663,
-              "handballs": 0.07829,
-              "marks": 0.03831,
-              "tackles": 0.07394,
-              "behinds": 0.03824,
-              "totalClearances": 0.12034,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.0535
+              "disposals": 0.06133,
+              "goals": 0.03826,
+              "kicks": 0.04672,
+              "handballs": 0.07825,
+              "marks": 0.03859,
+              "tackles": 0.0737,
+              "behinds": 0.03817,
+              "totalClearances": 0.11905,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.05363
             },
             "sigma": {
               "disposals": 6.044,
@@ -15130,16 +15085,16 @@
               "dreamTeamPoints": 74.415
             },
             "share": {
-              "disposals": 0.04581,
-              "goals": 0.00367,
-              "kicks": 0.05405,
-              "handballs": 0.03318,
-              "marks": 0.06785,
-              "tackles": 0.02529,
-              "behinds": 0.00339,
-              "totalClearances": 0.01011,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.04515
+              "disposals": 0.04594,
+              "goals": 0.00366,
+              "kicks": 0.05416,
+              "handballs": 0.03316,
+              "marks": 0.06834,
+              "tackles": 0.02521,
+              "behinds": 0.00338,
+              "totalClearances": 0.01,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.04527
             },
             "sigma": {
               "disposals": 5.322,
@@ -15175,16 +15130,16 @@
               "dreamTeamPoints": 57.004
             },
             "share": {
-              "disposals": 0.0254,
-              "goals": 0.1074,
-              "kicks": 0.03265,
-              "handballs": 0.0165,
-              "marks": 0.04249,
-              "tackles": 0.03428,
-              "behinds": 0.07967,
-              "totalClearances": 0.00576,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.03459
+              "disposals": 0.02547,
+              "goals": 0.10702,
+              "kicks": 0.03272,
+              "handballs": 0.01649,
+              "marks": 0.0428,
+              "tackles": 0.03417,
+              "behinds": 0.07953,
+              "totalClearances": 0.0057,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.03467
             },
             "sigma": {
               "disposals": 4.136,
@@ -15220,16 +15175,16 @@
               "dreamTeamPoints": 96.03
             },
             "share": {
-              "disposals": 0.06093,
-              "goals": 0.00624,
-              "kicks": 0.07662,
-              "handballs": 0.03938,
-              "marks": 0.06867,
-              "tackles": 0.04803,
-              "behinds": 0.00876,
-              "totalClearances": 0.0172,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.05827
+              "disposals": 0.06111,
+              "goals": 0.00622,
+              "kicks": 0.07677,
+              "handballs": 0.03936,
+              "marks": 0.06917,
+              "tackles": 0.04787,
+              "behinds": 0.00874,
+              "totalClearances": 0.01701,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.05841
             },
             "sigma": {
               "disposals": 6.034,
@@ -15265,16 +15220,16 @@
               "dreamTeamPoints": 75.6
             },
             "share": {
-              "disposals": 0.03037,
-              "goals": 0.01622,
-              "kicks": 0.02135,
-              "handballs": 0.0444,
-              "marks": 0.01738,
-              "tackles": 0.073,
-              "behinds": 0.01667,
-              "totalClearances": 0.10068,
-              "hitouts": 0.89994,
-              "dreamTeamPoints": 0.04587
+              "disposals": 0.03046,
+              "goals": 0.01617,
+              "kicks": 0.02139,
+              "handballs": 0.04438,
+              "marks": 0.0175,
+              "tackles": 0.07277,
+              "behinds": 0.01664,
+              "totalClearances": 0.0996,
+              "hitouts": 0.83221,
+              "dreamTeamPoints": 0.04599
             },
             "sigma": {
               "disposals": 4.459,
@@ -15310,16 +15265,16 @@
               "dreamTeamPoints": 96.341
             },
             "share": {
-              "disposals": 0.06929,
-              "goals": 0.05124,
-              "kicks": 0.04937,
-              "handballs": 0.09925,
-              "marks": 0.0273,
-              "tackles": 0.0866,
-              "behinds": 0.05933,
-              "totalClearances": 0.19978,
-              "hitouts": 0.00853,
-              "dreamTeamPoints": 0.05846
+              "disposals": 0.06949,
+              "goals": 0.05106,
+              "kicks": 0.04947,
+              "handballs": 0.09921,
+              "marks": 0.02749,
+              "tackles": 0.08632,
+              "behinds": 0.05922,
+              "totalClearances": 0.19764,
+              "hitouts": 0.00788,
+              "dreamTeamPoints": 0.0586
             },
             "sigma": {
               "disposals": 6.39,
@@ -15355,16 +15310,16 @@
               "dreamTeamPoints": 73.343
             },
             "share": {
-              "disposals": 0.0419,
-              "goals": 0.10424,
-              "kicks": 0.04016,
-              "handballs": 0.03726,
-              "marks": 0.04502,
-              "tackles": 0.03787,
-              "behinds": 0.08156,
-              "totalClearances": 0.01301,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.0445
+              "disposals": 0.04202,
+              "goals": 0.10388,
+              "kicks": 0.04024,
+              "handballs": 0.03724,
+              "marks": 0.04534,
+              "tackles": 0.03775,
+              "behinds": 0.08141,
+              "totalClearances": 0.01287,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.04461
             },
             "sigma": {
               "disposals": 5.12,
@@ -15377,6 +15332,51 @@
               "totalClearances": 0.792,
               "hitouts": 0.2,
               "dreamTeamPoints": 22.414
+            }
+          },
+          {
+            "player_id": "CD_I997316",
+            "player": "Lewis Young",
+            "position": "KEY_DEFENDER",
+            "role": "DEF",
+            "named_pos": "CHB",
+            "is_ruck": 0,
+            "tog": 82.8,
+            "exp": {
+              "disposals": 10.847,
+              "goals": 0.075,
+              "kicks": 7.228,
+              "handballs": 4.525,
+              "marks": 4.763,
+              "tackles": 1.216,
+              "behinds": 0.044,
+              "totalClearances": 0.569,
+              "hitouts": 2.407,
+              "dreamTeamPoints": 47.261
+            },
+            "share": {
+              "disposals": 0.02736,
+              "goals": 0.00549,
+              "kicks": 0.03188,
+              "handballs": 0.02707,
+              "marks": 0.04187,
+              "tackles": 0.02237,
+              "behinds": 0.00414,
+              "totalClearances": 0.01559,
+              "hitouts": 0.0759,
+              "dreamTeamPoints": 0.02875
+            },
+            "sigma": {
+              "disposals": 4.262,
+              "goals": 0.29,
+              "kicks": 3.167,
+              "handballs": 2.463,
+              "marks": 2.504,
+              "tackles": 1.161,
+              "behinds": 0.211,
+              "totalClearances": 0.876,
+              "hitouts": 2.649,
+              "dreamTeamPoints": 20.497
             }
           },
           {
@@ -15400,16 +15400,16 @@
               "dreamTeamPoints": 80.213
             },
             "share": {
-              "disposals": 0.05403,
-              "goals": 0.00954,
-              "kicks": 0.06646,
-              "handballs": 0.04533,
-              "marks": 0.05688,
-              "tackles": 0.03553,
-              "behinds": 0.01262,
-              "totalClearances": 0.0304,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.04867
+              "disposals": 0.05418,
+              "goals": 0.00951,
+              "kicks": 0.06659,
+              "handballs": 0.04531,
+              "marks": 0.05728,
+              "tackles": 0.03542,
+              "behinds": 0.0126,
+              "totalClearances": 0.03008,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.04879
             },
             "sigma": {
               "disposals": 5.722,
@@ -15445,16 +15445,16 @@
               "dreamTeamPoints": 77.076
             },
             "share": {
-              "disposals": 0.04858,
-              "goals": 0.07393,
-              "kicks": 0.04717,
-              "handballs": 0.04539,
-              "marks": 0.04539,
-              "tackles": 0.03996,
-              "behinds": 0.07176,
-              "totalClearances": 0.03281,
-              "hitouts": 0.00068,
-              "dreamTeamPoints": 0.04677
+              "disposals": 0.04872,
+              "goals": 0.07367,
+              "kicks": 0.04726,
+              "handballs": 0.04537,
+              "marks": 0.04572,
+              "tackles": 0.03983,
+              "behinds": 0.07163,
+              "totalClearances": 0.03246,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.04688
             },
             "sigma": {
               "disposals": 5.461,
@@ -15471,8 +15471,8 @@
           }
         ]
       },
-      "exp_total_points": 159.5,
-      "exp_supremacy": -25.1
+      "exp_total_points": 159.9,
+      "exp_supremacy": -25.5
     },
     {
       "match_id": "CD_M20260141708",
