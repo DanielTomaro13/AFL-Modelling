@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "round": 17,
-  "generated": "2026-07-04T02:11:13.737062+00:00",
+  "generated": "2026-07-04T06:15:12.426609+00:00",
   "dispersion": {
     "disposals": {
       "type": "normal",
@@ -5096,7 +5096,7 @@
             "player": "Beau Addinsall",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "WR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 57.0,
             "exp": {
@@ -5231,7 +5231,7 @@
             "player": "Nick Holman",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "INT",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 72.8,
             "exp": {
@@ -5701,7 +5701,7 @@
             "player": "Ned Long",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "C",
             "is_ruck": 0,
             "tog": 72.4,
             "exp": {
@@ -5746,7 +5746,7 @@
             "player": "Liam Puncher",
             "position": NaN,
             "role": "OTHER",
-            "named_pos": "INT",
+            "named_pos": "BPL",
             "is_ruck": 0,
             "tog": 0.0,
             "exp": {
@@ -5791,7 +5791,7 @@
             "player": "Edward Allan",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "RR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 66.0,
             "exp": {
@@ -5881,7 +5881,7 @@
             "player": "Angus Anderson",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": "C",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 65.0,
             "exp": {
@@ -6061,7 +6061,7 @@
             "player": "Jack Crisp",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 81.4,
             "exp": {
@@ -6286,7 +6286,7 @@
             "player": "Brayden Maynard",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": "BPL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 72.8,
             "exp": {
@@ -7638,7 +7638,7 @@
             "player": "Hayden Young",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "CHF",
             "is_ruck": 0,
             "tog": 71.8,
             "exp": {
@@ -8088,7 +8088,7 @@
             "player": "Neil Erasmus",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "WR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 73.0,
             "exp": {
@@ -8538,7 +8538,7 @@
             "player": "Michael Frederick",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "CHF",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 80.0,
             "exp": {
@@ -8655,7 +8655,7 @@
             "player": "Harry Morrison",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "WR",
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 81.0,
             "exp": {
@@ -9105,7 +9105,7 @@
             "player": "William McCabe",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": "INT",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 63.0,
             "exp": {
@@ -9150,7 +9150,7 @@
             "player": "Bodie Ryan",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "FB",
+            "named_pos": "HBFL",
             "is_ruck": 0,
             "tog": 75.2,
             "exp": {
@@ -9240,7 +9240,7 @@
             "player": "Noah Mraz",
             "position": NaN,
             "role": "OTHER",
-            "named_pos": "HBFL",
+            "named_pos": "CHB",
             "is_ruck": 0,
             "tog": 0.0,
             "exp": {
@@ -9285,7 +9285,7 @@
             "player": "Bailey Macdonald",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "HBFR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 69.2,
             "exp": {
@@ -9510,7 +9510,7 @@
             "player": "Tom Barrass",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": "CHB",
+            "named_pos": "FB",
             "is_ruck": 0,
             "tog": 73.2,
             "exp": {
@@ -9755,7 +9755,7 @@
             "player": "Harry Sharp",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "INT",
+            "named_pos": "FPL",
             "is_ruck": 0,
             "tog": 86.0,
             "exp": {
@@ -9845,7 +9845,7 @@
             "player": "Harrison Petty",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 83.2,
             "exp": {
@@ -9890,7 +9890,7 @@
             "player": "Trent Rivers",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "HBFL",
             "is_ruck": 0,
             "tog": 74.8,
             "exp": {
@@ -10070,7 +10070,7 @@
             "player": "Blake Howes",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "HBFL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 81.2,
             "exp": {
@@ -10205,7 +10205,7 @@
             "player": "Latrelle Pickett",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "FPL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 66.6,
             "exp": {
@@ -10250,7 +10250,7 @@
             "player": "Matthew Jefferson",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": "HFFR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 76.6,
             "exp": {
@@ -10295,7 +10295,7 @@
             "player": "Koltyn Tholstrup",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "HBFR",
+            "named_pos": "WL",
             "is_ruck": 0,
             "tog": 81.8,
             "exp": {
@@ -10385,7 +10385,7 @@
             "player": "Harvey Langford",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "WL",
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 76.8,
             "exp": {
@@ -10520,7 +10520,7 @@
             "player": "Ed Langdon",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "R",
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 91.8,
             "exp": {
