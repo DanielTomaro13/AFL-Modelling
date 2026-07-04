@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "round": 17,
-  "generated": "2026-07-04T06:15:12.426609+00:00",
+  "generated": "2026-07-04T10:52:23.485055+00:00",
   "dispersion": {
     "disposals": {
       "type": "normal",
@@ -12934,7 +12934,7 @@
             "player": "Jack Ross",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "R",
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 81.6,
             "exp": {
@@ -12979,7 +12979,7 @@
             "player": "Rhyan Mansell",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "INT",
+            "named_pos": "FPR",
             "is_ruck": 0,
             "tog": 79.4,
             "exp": {
@@ -13069,7 +13069,7 @@
             "player": "Hugo Ralphsmith",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 87.6,
             "exp": {
@@ -13114,7 +13114,7 @@
             "player": "Sam Banks",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "HBFR",
+            "named_pos": "CHB",
             "is_ruck": 0,
             "tog": 65.2,
             "exp": {
@@ -13159,7 +13159,7 @@
             "player": "Tom Brown",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "BPR",
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 65.6,
             "exp": {
@@ -13249,7 +13249,7 @@
             "player": "Steely Green",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "HFFR",
+            "named_pos": "HFFL",
             "is_ruck": 0,
             "tog": 81.6,
             "exp": {
@@ -13294,7 +13294,7 @@
             "player": "Seth Campbell",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "CHF",
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 73.2,
             "exp": {
@@ -13339,7 +13339,7 @@
             "player": "Sam Cumming",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": "HFFL",
+            "named_pos": "CHF",
             "is_ruck": 0,
             "tog": 72.4,
             "exp": {
@@ -13384,7 +13384,7 @@
             "player": "Jasper Alger",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "FPR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 64.8,
             "exp": {
@@ -13429,7 +13429,7 @@
             "player": "James Trezise",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "WR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 80.8,
             "exp": {
@@ -13519,7 +13519,7 @@
             "player": "Taj Hotton",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "RR",
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 67.2,
             "exp": {
@@ -13564,7 +13564,7 @@
             "player": "Kye Annand",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "BPR",
             "is_ruck": 0,
             "tog": 88.0,
             "exp": {
@@ -13789,7 +13789,7 @@
             "player": "Jayden Short",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "CHB",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 81.8,
             "exp": {
@@ -14214,7 +14214,7 @@
             "player": "Lachlan Cowan",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "HBFL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 83.2,
             "exp": {
@@ -14619,7 +14619,7 @@
             "player": "Nic Newman",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "HBFL",
             "is_ruck": 0,
             "tog": 83.2,
             "exp": {
