@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "round": 17,
-  "generated": "2026-07-05T02:26:39.112107+00:00",
+  "generated": "2026-07-05T06:35:51.072748+00:00",
   "dispersion": {
     "disposals": {
       "type": "normal",
@@ -142,7 +142,7 @@
             "player": "Jordan Ridley",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "CHB",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 58.0,
             "exp": {
@@ -817,7 +817,7 @@
             "player": "Jacob Farrow",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "CHB",
             "is_ruck": 0,
             "tog": 81.6,
             "exp": {
@@ -1377,7 +1377,7 @@
             "player": "Liam Stocker",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "C",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 75.2,
             "exp": {
@@ -1647,7 +1647,7 @@
             "player": "Marcus Windhager",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "WR",
+            "named_pos": "C",
             "is_ruck": 0,
             "tog": 79.6,
             "exp": {
@@ -2007,7 +2007,7 @@
             "player": "Liam O'Connell",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 77.6,
             "exp": {
@@ -10727,7 +10727,7 @@
             "player": "Willem Drew",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "R",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 85.6,
             "exp": {
@@ -10952,7 +10952,7 @@
             "player": "Joe Richards",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "FPR",
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 81.0,
             "exp": {
@@ -11042,7 +11042,7 @@
             "player": "Miles Bergman",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "BPL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 71.4,
             "exp": {
@@ -11222,7 +11222,7 @@
             "player": "Jase Burgoyne",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "WR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 83.2,
             "exp": {
@@ -11267,7 +11267,7 @@
             "player": "Dante Visentini",
             "position": "RUCK",
             "role": "RUCK",
-            "named_pos": "INT",
+            "named_pos": "FPR",
             "is_ruck": 1,
             "tog": 67.0,
             "exp": {
@@ -11312,7 +11312,7 @@
             "player": "Logan Evans",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "BPL",
             "is_ruck": 0,
             "tog": 85.0,
             "exp": {
@@ -11357,7 +11357,7 @@
             "player": "Joe Berry",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "HFFR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 73.6,
             "exp": {
@@ -11582,7 +11582,7 @@
             "player": "Ollie Wines",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 58.2,
             "exp": {
@@ -11872,7 +11872,7 @@
             "player": "Charlie Spargo",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "INT",
+            "named_pos": "FPL",
             "is_ruck": 0,
             "tog": 75.8,
             "exp": {
@@ -11917,7 +11917,7 @@
             "player": "Dylan Stephens",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "WR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 86.8,
             "exp": {
@@ -12052,7 +12052,7 @@
             "player": "Tom Blamires",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 78.8,
             "exp": {
@@ -12322,7 +12322,7 @@
             "player": "Colby McKercher",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "HBFR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 82.6,
             "exp": {
@@ -12682,7 +12682,7 @@
             "player": "Luke McDonald",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 89.6,
             "exp": {
@@ -12772,7 +12772,7 @@
             "player": "Cameron Zurhaar",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "FPL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 81.0,
             "exp": {
