@@ -106,3 +106,13 @@ def match_rosters_round(year, rnd, force=False):
     rid = round_provider(year, rnd)
     return get(f"/cfs/afl/matchRosters/round/{rid}", params={"minimal": "true"},
                cache_key=f"{year}/rosters_r{rnd:02d}.json", force=force)
+
+
+def match_items_round(year, rnd, force=False):
+    """Round fixtures from the schedule feed — match id, teams, venue, date,
+    status. Available as soon as the fixture is published (well before named
+    teams appear in matchRosters), so it lets us project a round with proxy
+    lineups before rosters exist."""
+    rid = round_provider(year, rnd)
+    return get(f"/cfs/afl/matchItems/round/{rid}",
+               cache_key=f"{year}/items_r{rnd:02d}.json", force=force)

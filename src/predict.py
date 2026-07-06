@@ -67,6 +67,34 @@ def fixtures_for(season, rnd, force=False):
             "home_status": (mr.get("homeTeam") or {}).get("teamStatus"),
             "away_status": (mr.get("awayTeam") or {}).get("teamStatus"),
         })
+    if out:
+        return out
+    # Roster feed not published yet (teams are named ~Thu). Fall back to the
+    # schedule feed so the round can still be projected with proxy lineups —
+    # empty rosters below make build_placeholders() use each team's last XVIII.
+    return fixtures_from_items(season, rnd, force=force)
+
+
+def fixtures_from_items(season, rnd, force=False):
+    """Fixture stubs from the schedule feed (no named teams / weather)."""
+    items = api.match_items_round(season, rnd, force=force)
+    out = []
+    for it in ((items or {}).get("items") or []):
+        mt = (it or {}).get("match") or {}
+        vn = (it or {}).get("venue") or {}
+        if not mt.get("homeTeamId"):
+            continue
+        out.append({
+            "match_id": mt.get("matchId"),
+            "home_team_id": mt.get("homeTeamId"),
+            "away_team_id": mt.get("awayTeamId"),
+            "venue": vn.get("name"), "venue_state": vn.get("state"),
+            "date": mt.get("utcStartTime") or mt.get("date"),
+            "status": mt.get("status"),
+            "temp_c": None, "weather": None,
+            "home_roster": [], "away_roster": [],
+            "home_status": None, "away_status": None,
+        })
     return out
 
 
