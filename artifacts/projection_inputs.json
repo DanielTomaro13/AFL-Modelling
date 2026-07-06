@@ -122,7 +122,7 @@
       "home": {
         "team_id": "CD_T60",
         "team": "Fremantle",
-        "lineup": "proxy",
+        "lineup": "provisional",
         "team_total": {
           "disposals": 372.75,
           "goals": 13.68,
@@ -142,7 +142,7 @@
             "player": "Andrew Brayshaw",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "C",
             "is_ruck": 0,
             "tog": 79.8,
             "exp": {
@@ -187,7 +187,7 @@
             "player": "Jordan Clark",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "HBFL",
             "is_ruck": 0,
             "tog": 83.2,
             "exp": {
@@ -232,7 +232,7 @@
             "player": "Hayden Young",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "CHF",
             "is_ruck": 0,
             "tog": 64.6,
             "exp": {
@@ -277,7 +277,7 @@
             "player": "Luke Jackson",
             "position": "RUCK",
             "role": "RUCK",
-            "named_pos": null,
+            "named_pos": "RK",
             "is_ruck": 1,
             "tog": 76.8,
             "exp": {
@@ -322,7 +322,7 @@
             "player": "Caleb Serong",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 73.6,
             "exp": {
@@ -367,7 +367,7 @@
             "player": "Isaiah Dudley",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 74.4,
             "exp": {
@@ -412,7 +412,7 @@
             "player": "Josh Treacy",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FPR",
             "is_ruck": 0,
             "tog": 87.2,
             "exp": {
@@ -457,7 +457,7 @@
             "player": "Nathan O'Driscoll",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "WL",
             "is_ruck": 0,
             "tog": 78.4,
             "exp": {
@@ -502,7 +502,7 @@
             "player": "Heath Chapman",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPR",
             "is_ruck": 0,
             "tog": 81.6,
             "exp": {
@@ -547,7 +547,7 @@
             "player": "Matthew Johnson",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 72.8,
             "exp": {
@@ -592,7 +592,7 @@
             "player": "Judd McVee",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 80.6,
             "exp": {
@@ -637,7 +637,7 @@
             "player": "Patrick Voss",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FPL",
             "is_ruck": 0,
             "tog": 87.4,
             "exp": {
@@ -682,7 +682,7 @@
             "player": "Neil Erasmus",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 73.6,
             "exp": {
@@ -727,7 +727,7 @@
             "player": "Jye Amiss",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FF",
             "is_ruck": 0,
             "tog": 88.8,
             "exp": {
@@ -772,7 +772,7 @@
             "player": "Karl Worner",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 82.2,
             "exp": {
@@ -862,7 +862,7 @@
             "player": "Alex Pearce",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "FB",
             "is_ruck": 0,
             "tog": 80.2,
             "exp": {
@@ -907,7 +907,7 @@
             "player": "Sam Switkowski",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 72.6,
             "exp": {
@@ -952,7 +952,7 @@
             "player": "Shai Bolton",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 81.8,
             "exp": {
@@ -997,7 +997,7 @@
             "player": "Brennan Cox",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPL",
             "is_ruck": 0,
             "tog": 76.2,
             "exp": {
@@ -1042,7 +1042,7 @@
             "player": "Sean Darcy",
             "position": "RUCK",
             "role": "RUCK",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 1,
             "tog": 47.8,
             "exp": {
@@ -1087,7 +1087,7 @@
             "player": "Luke Ryan",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "CHB",
             "is_ruck": 0,
             "tog": 88.4,
             "exp": {
@@ -1197,7 +1197,7 @@
             "player": "Hayden McLean",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FF",
             "is_ruck": 0,
             "tog": 71.0,
             "exp": {
@@ -1242,7 +1242,7 @@
             "player": "Nick Blakey",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "WL",
             "is_ruck": 0,
             "tog": 82.0,
             "exp": {
@@ -1287,7 +1287,7 @@
             "player": "James Rowbottom",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 80.4,
             "exp": {
@@ -1827,7 +1827,7 @@
             "player": "Harry Kyle",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 68.0,
             "exp": {
@@ -1872,7 +1872,7 @@
             "player": "Dane Rampe",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPR",
             "is_ruck": 0,
             "tog": 77.4,
             "exp": {
@@ -2097,7 +2097,7 @@
             "player": "Isaac Heeney",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "C",
             "is_ruck": 0,
             "tog": 83.0,
             "exp": {
@@ -2394,9 +2394,9 @@
             "player": "Josh Daicos",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "FB",
             "is_ruck": 0,
-            "tog": 85.4,
+            "tog": 99.0,
             "exp": {
               "disposals": 24.91,
               "goals": 0.239,
@@ -2439,7 +2439,7 @@
             "player": "Jack Buller",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "WL",
             "is_ruck": 0,
             "tog": 72.8,
             "exp": {
@@ -2619,7 +2619,7 @@
             "player": "Edward Allan",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 71.6,
             "exp": {
@@ -2934,7 +2934,7 @@
             "player": "Tim Membrey",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 81.0,
             "exp": {
@@ -3114,7 +3114,7 @@
             "player": "Brayden Maynard",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPR",
             "is_ruck": 0,
             "tog": 71.4,
             "exp": {
@@ -3204,7 +3204,7 @@
             "player": "Dan Houston",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "HBFL",
             "is_ruck": 0,
             "tog": 79.2,
             "exp": {
@@ -3294,7 +3294,7 @@
       "away": {
         "team_id": "CD_T100",
         "team": "North Melbourne",
-        "lineup": "proxy",
+        "lineup": "provisional",
         "team_total": {
           "disposals": 400.19,
           "goals": 9.64,
@@ -3314,7 +3314,7 @@
             "player": "Nick Larkey",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FF",
             "is_ruck": 0,
             "tog": 84.8,
             "exp": {
@@ -3359,7 +3359,7 @@
             "player": "Luke Davies-Uniacke",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "C",
             "is_ruck": 0,
             "tog": 84.2,
             "exp": {
@@ -3404,7 +3404,7 @@
             "player": "Charlie Spargo",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FPL",
             "is_ruck": 0,
             "tog": 75.8,
             "exp": {
@@ -3449,7 +3449,7 @@
             "player": "Dylan Stephens",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 83.2,
             "exp": {
@@ -3494,7 +3494,7 @@
             "player": "Tristan Xerri",
             "position": "RUCK",
             "role": "RUCK",
-            "named_pos": null,
+            "named_pos": "RK",
             "is_ruck": 1,
             "tog": 70.2,
             "exp": {
@@ -3539,7 +3539,7 @@
             "player": "Charlie Comben",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "FB",
             "is_ruck": 0,
             "tog": 91.6,
             "exp": {
@@ -3584,7 +3584,7 @@
             "player": "Tom Blamires",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 79.2,
             "exp": {
@@ -3670,11 +3670,56 @@
             }
           },
           {
+            "player_id": "CD_I1017118",
+            "player": "Josh Goater",
+            "position": "MEDIUM_DEFENDER",
+            "role": "DEF",
+            "named_pos": "HBFL",
+            "is_ruck": 0,
+            "tog": 75.2,
+            "exp": {
+              "disposals": 13.864,
+              "goals": 0.071,
+              "kicks": 8.764,
+              "handballs": 6.155,
+              "marks": 4.409,
+              "tackles": 1.628,
+              "behinds": 0.071,
+              "totalClearances": 0.563,
+              "hitouts": 0.02,
+              "dreamTeamPoints": 51.59
+            },
+            "share": {
+              "disposals": 0.03702,
+              "goals": 0.0069,
+              "kicks": 0.0408,
+              "handballs": 0.03857,
+              "marks": 0.04571,
+              "tackles": 0.03033,
+              "behinds": 0.00961,
+              "totalClearances": 0.01601,
+              "hitouts": 0.00066,
+              "dreamTeamPoints": 0.03365
+            },
+            "sigma": {
+              "disposals": 4.73,
+              "goals": 0.282,
+              "kicks": 3.483,
+              "handballs": 2.91,
+              "marks": 2.408,
+              "tackles": 1.402,
+              "behinds": 0.268,
+              "totalClearances": 0.871,
+              "hitouts": 0.2,
+              "dreamTeamPoints": 20.846
+            }
+          },
+          {
             "player_id": "CD_I1020979",
             "player": "Cooper Harvey",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 69.4,
             "exp": {
@@ -3719,7 +3764,7 @@
             "player": "George Wardlaw",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 64.4,
             "exp": {
@@ -3764,7 +3809,7 @@
             "player": "Harry Sheezel",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 84.2,
             "exp": {
@@ -3809,7 +3854,7 @@
             "player": "Jacob Konstanty",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 78.8,
             "exp": {
@@ -3854,7 +3899,7 @@
             "player": "Colby McKercher",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 80.6,
             "exp": {
@@ -3899,7 +3944,7 @@
             "player": "Finn O'Sullivan",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "HFFL",
             "is_ruck": 0,
             "tog": 85.8,
             "exp": {
@@ -3944,7 +3989,7 @@
             "player": "Wil Dawson",
             "position": "RUCK",
             "role": "RUCK",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 1,
             "tog": 49.0,
             "exp": {
@@ -3989,7 +4034,7 @@
             "player": "Cooper Trembath",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "CHF",
             "is_ruck": 0,
             "tog": 79.0,
             "exp": {
@@ -4034,7 +4079,7 @@
             "player": "Luke Parker",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPR",
             "is_ruck": 0,
             "tog": 88.4,
             "exp": {
@@ -4079,7 +4124,7 @@
             "player": "Jack Darling",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FPR",
             "is_ruck": 0,
             "tog": 73.6,
             "exp": {
@@ -4124,7 +4169,7 @@
             "player": "Aidan Corr",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPL",
             "is_ruck": 0,
             "tog": 85.6,
             "exp": {
@@ -4169,7 +4214,7 @@
             "player": "Caleb Daniel",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "CHB",
             "is_ruck": 0,
             "tog": 84.6,
             "exp": {
@@ -4214,7 +4259,7 @@
             "player": "Luke McDonald",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 86.6,
             "exp": {
@@ -4259,7 +4304,7 @@
             "player": "Jy Simpkin",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "WL",
             "is_ruck": 0,
             "tog": 81.0,
             "exp": {
@@ -4376,7 +4421,7 @@
             "player": "Jack Silvagni",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "FPL",
             "is_ruck": 0,
             "tog": 92.6,
             "exp": {
@@ -4511,7 +4556,7 @@
             "player": "Liam Henry",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "HFFL",
             "is_ruck": 0,
             "tog": 63.2,
             "exp": {
@@ -4691,7 +4736,7 @@
             "player": "Cooper Sharman",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 88.4,
             "exp": {
@@ -4736,7 +4781,7 @@
             "player": "Mattaes Phillipou",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "CHF",
             "is_ruck": 0,
             "tog": 78.4,
             "exp": {
@@ -6016,7 +6061,7 @@
             "player": "Logan Evans",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 85.0,
             "exp": {
@@ -7483,7 +7528,7 @@
             "player": "Clayton Oliver",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "WL",
             "is_ruck": 0,
             "tog": 82.4,
             "exp": {
@@ -8590,7 +8635,7 @@
       "home": {
         "team_id": "CD_T30",
         "team": "Carlton",
-        "lineup": "proxy",
+        "lineup": "provisional",
         "team_total": {
           "disposals": 394.02,
           "goals": 12.7,
@@ -8610,7 +8655,7 @@
             "player": "Harry McKay",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FF",
             "is_ruck": 0,
             "tog": 81.4,
             "exp": {
@@ -8655,7 +8700,7 @@
             "player": "Adam Cerra",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "WL",
             "is_ruck": 0,
             "tog": 73.8,
             "exp": {
@@ -8700,7 +8745,7 @@
             "player": "Sam Walsh",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "C",
             "is_ruck": 0,
             "tog": 77.4,
             "exp": {
@@ -8745,7 +8790,7 @@
             "player": "Matthew Cottrell",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "HFFL",
             "is_ruck": 0,
             "tog": 79.2,
             "exp": {
@@ -8790,7 +8835,7 @@
             "player": "Brodie Kemp",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FPL",
             "is_ruck": 0,
             "tog": 88.6,
             "exp": {
@@ -8835,7 +8880,7 @@
             "player": "Wade Derksen",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "FB",
             "is_ruck": 0,
             "tog": 84.4,
             "exp": {
@@ -8880,7 +8925,7 @@
             "player": "Francis Evans",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 74.0,
             "exp": {
@@ -8925,7 +8970,7 @@
             "player": "Lachlan Cowan",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 83.8,
             "exp": {
@@ -9011,11 +9056,56 @@
             }
           },
           {
+            "player_id": "CD_I1023495",
+            "player": "Oliver Hollands",
+            "position": "MIDFIELDER",
+            "role": "MID",
+            "named_pos": "WR",
+            "is_ruck": 0,
+            "tog": 84.8,
+            "exp": {
+              "disposals": 18.059,
+              "goals": 0.304,
+              "kicks": 11.026,
+              "handballs": 7.655,
+              "marks": 5.567,
+              "tackles": 2.344,
+              "behinds": 0.215,
+              "totalClearances": 1.06,
+              "hitouts": 0.02,
+              "dreamTeamPoints": 75.273
+            },
+            "share": {
+              "disposals": 0.04556,
+              "goals": 0.02224,
+              "kicks": 0.04863,
+              "handballs": 0.0458,
+              "marks": 0.04893,
+              "tackles": 0.04313,
+              "behinds": 0.02021,
+              "totalClearances": 0.02904,
+              "hitouts": 0.00063,
+              "dreamTeamPoints": 0.04579
+            },
+            "sigma": {
+              "disposals": 5.303,
+              "goals": 0.584,
+              "kicks": 3.901,
+              "handballs": 3.272,
+              "marks": 2.71,
+              "tackles": 1.756,
+              "behinds": 0.466,
+              "totalClearances": 1.212,
+              "hitouts": 0.2,
+              "dreamTeamPoints": 22.541
+            }
+          },
+          {
             "player_id": "CD_I1027678",
             "player": "Billy Wilson",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 72.8,
             "exp": {
@@ -9060,7 +9150,7 @@
             "player": "Jagga Smith",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 73.8,
             "exp": {
@@ -9105,7 +9195,7 @@
             "player": "Jack Ison",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 68.4,
             "exp": {
@@ -9150,7 +9240,7 @@
             "player": "Talor Byrne",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FPR",
             "is_ruck": 0,
             "tog": 62.6,
             "exp": {
@@ -9195,7 +9285,7 @@
             "player": "George Hewett",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 75.6,
             "exp": {
@@ -9240,7 +9330,7 @@
             "player": "Nick Haynes",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPR",
             "is_ruck": 0,
             "tog": 88.6,
             "exp": {
@@ -9285,7 +9375,7 @@
             "player": "Mitch McGovern",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "CHF",
             "is_ruck": 0,
             "tog": 77.8,
             "exp": {
@@ -9330,7 +9420,7 @@
             "player": "Nic Newman",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "HBFL",
             "is_ruck": 0,
             "tog": 83.2,
             "exp": {
@@ -9375,7 +9465,7 @@
             "player": "Marc Pittonet",
             "position": "RUCK",
             "role": "RUCK",
-            "named_pos": null,
+            "named_pos": "RK",
             "is_ruck": 1,
             "tog": 72.2,
             "exp": {
@@ -9420,7 +9510,7 @@
             "player": "Patrick Cripps",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 82.6,
             "exp": {
@@ -9465,7 +9555,7 @@
             "player": "Will Hayward",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 78.4,
             "exp": {
@@ -9551,11 +9641,56 @@
             }
           },
           {
+            "player_id": "CD_I997316",
+            "player": "Lewis Young",
+            "position": "KEY_DEFENDER",
+            "role": "DEF",
+            "named_pos": "CHB",
+            "is_ruck": 0,
+            "tog": 82.8,
+            "exp": {
+              "disposals": 10.847,
+              "goals": 0.075,
+              "kicks": 7.228,
+              "handballs": 4.525,
+              "marks": 4.763,
+              "tackles": 1.216,
+              "behinds": 0.044,
+              "totalClearances": 0.569,
+              "hitouts": 2.407,
+              "dreamTeamPoints": 47.261
+            },
+            "share": {
+              "disposals": 0.02736,
+              "goals": 0.00549,
+              "kicks": 0.03188,
+              "handballs": 0.02707,
+              "marks": 0.04187,
+              "tackles": 0.02237,
+              "behinds": 0.00414,
+              "totalClearances": 0.01559,
+              "hitouts": 0.0759,
+              "dreamTeamPoints": 0.02875
+            },
+            "sigma": {
+              "disposals": 4.262,
+              "goals": 0.29,
+              "kicks": 3.167,
+              "handballs": 2.463,
+              "marks": 2.504,
+              "tackles": 1.161,
+              "behinds": 0.211,
+              "totalClearances": 0.876,
+              "hitouts": 2.649,
+              "dreamTeamPoints": 20.497
+            }
+          },
+          {
             "player_id": "CD_I998103",
             "player": "Oliver Florent",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPL",
             "is_ruck": 0,
             "tog": 80.0,
             "exp": {
@@ -9600,7 +9735,7 @@
             "player": "Ben Ainsworth",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 77.4,
             "exp": {
@@ -9665,7 +9800,7 @@
             "player": "Mitch Lewis",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FPR",
             "is_ruck": 0,
             "tog": 82.0,
             "exp": {
@@ -11087,7 +11222,7 @@
             "player": "Josh Rachele",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 79.6,
             "exp": {
@@ -11132,7 +11267,7 @@
             "player": "Zac Taylor",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FPL",
             "is_ruck": 0,
             "tog": 74.6,
             "exp": {
@@ -11177,7 +11312,7 @@
             "player": "Jake Soligo",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "CHF",
             "is_ruck": 0,
             "tog": 78.0,
             "exp": {
@@ -11222,7 +11357,7 @@
             "player": "Brayden Cook",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 78.4,
             "exp": {
@@ -11267,7 +11402,7 @@
             "player": "Toby Murray",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FF",
             "is_ruck": 0,
             "tog": 60.2,
             "exp": {
@@ -12824,7 +12959,7 @@
       "home": {
         "team_id": "CD_T140",
         "team": "Western Bulldogs",
-        "lineup": "proxy",
+        "lineup": "provisional",
         "team_total": {
           "disposals": 362.01,
           "goals": 12.27,
@@ -12844,7 +12979,7 @@
             "player": "Lachlan Bramble",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 78.2,
             "exp": {
@@ -12889,7 +13024,7 @@
             "player": "Matthew Kennedy",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "WL",
             "is_ruck": 0,
             "tog": 73.4,
             "exp": {
@@ -12934,7 +13069,7 @@
             "player": "Aaron Naughton",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FF",
             "is_ruck": 0,
             "tog": 82.6,
             "exp": {
@@ -12979,7 +13114,7 @@
             "player": "Tim English",
             "position": "RUCK",
             "role": "RUCK",
-            "named_pos": null,
+            "named_pos": "RK",
             "is_ruck": 1,
             "tog": 77.8,
             "exp": {
@@ -13024,7 +13159,7 @@
             "player": "Nick Coffield",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPL",
             "is_ruck": 0,
             "tog": 77.8,
             "exp": {
@@ -13069,7 +13204,7 @@
             "player": "Ed Richards",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 80.0,
             "exp": {
@@ -13114,7 +13249,7 @@
             "player": "Connor Budarick",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "HBFL",
             "is_ruck": 0,
             "tog": 71.4,
             "exp": {
@@ -13245,11 +13380,56 @@
             }
           },
           {
+            "player_id": "CD_I1011803",
+            "player": "Cody Weightman",
+            "position": "MEDIUM_FORWARD",
+            "role": "FWD",
+            "named_pos": "FPR",
+            "is_ruck": 0,
+            "tog": 76.8,
+            "exp": {
+              "disposals": 10.186,
+              "goals": 1.301,
+              "kicks": 6.682,
+              "handballs": 3.513,
+              "marks": 2.297,
+              "tackles": 2.631,
+              "behinds": 0.657,
+              "totalClearances": 0.673,
+              "hitouts": 0.02,
+              "dreamTeamPoints": 50.091
+            },
+            "share": {
+              "disposals": 0.02812,
+              "goals": 0.10913,
+              "kicks": 0.03193,
+              "handballs": 0.02354,
+              "marks": 0.02877,
+              "tackles": 0.0459,
+              "behinds": 0.0784,
+              "totalClearances": 0.01688,
+              "hitouts": 0.00072,
+              "dreamTeamPoints": 0.03379
+            },
+            "sigma": {
+              "disposals": 4.151,
+              "goals": 1.209,
+              "kicks": 3.047,
+              "handballs": 2.142,
+              "marks": 1.727,
+              "tackles": 1.883,
+              "behinds": 0.815,
+              "totalClearances": 0.957,
+              "hitouts": 0.2,
+              "dreamTeamPoints": 20.727
+            }
+          },
+          {
             "player_id": "CD_I1013996",
             "player": "Jordan Croft",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "CHF",
             "is_ruck": 0,
             "tog": 75.4,
             "exp": {
@@ -13294,7 +13474,7 @@
             "player": "Ryley Sanders",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 79.0,
             "exp": {
@@ -13339,7 +13519,7 @@
             "player": "Arthur Jones",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 73.6,
             "exp": {
@@ -13384,7 +13564,7 @@
             "player": "Michael Sellwood",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 85.4,
             "exp": {
@@ -13429,7 +13609,7 @@
             "player": "Joel Freijah",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 80.4,
             "exp": {
@@ -13474,7 +13654,7 @@
             "player": "Cooper Hynes",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "HFFL",
             "is_ruck": 0,
             "tog": 80.0,
             "exp": {
@@ -13519,7 +13699,7 @@
             "player": "Luke Kennedy",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 66.7,
             "exp": {
@@ -13564,7 +13744,7 @@
             "player": "James O'Donnell",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "FB",
             "is_ruck": 0,
             "tog": 94.2,
             "exp": {
@@ -13609,7 +13789,7 @@
             "player": "Will Lewis",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FPL",
             "is_ruck": 0,
             "tog": 77.4,
             "exp": {
@@ -13654,7 +13834,7 @@
             "player": "Tom Liberatore",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 65.8,
             "exp": {
@@ -13699,7 +13879,7 @@
             "player": "Marcus Bontempelli",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "C",
             "is_ruck": 0,
             "tog": 81.6,
             "exp": {
@@ -13744,7 +13924,7 @@
             "player": "Rory Lobb",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "CHB",
             "is_ruck": 0,
             "tog": 79.8,
             "exp": {
@@ -13789,7 +13969,7 @@
             "player": "Bailey Dale",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 83.6,
             "exp": {
@@ -13834,7 +14014,7 @@
             "player": "Buku Khamis",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPR",
             "is_ruck": 0,
             "tog": 96.8,
             "exp": {
@@ -13879,7 +14059,7 @@
       "away": {
         "team_id": "CD_T150",
         "team": "West Coast Eagles",
-        "lineup": "proxy",
+        "lineup": "provisional",
         "team_total": {
           "disposals": 355.12,
           "goals": 10.27,
@@ -13899,7 +14079,7 @@
             "player": "Liam Baker",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 83.6,
             "exp": {
@@ -13944,7 +14124,7 @@
             "player": "Brandon Starcevich",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPR",
             "is_ruck": 0,
             "tog": 68.2,
             "exp": {
@@ -13989,7 +14169,7 @@
             "player": "Milan Murdock",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FPL",
             "is_ruck": 0,
             "tog": 76.2,
             "exp": {
@@ -14034,7 +14214,7 @@
             "player": "Bailey J. Williams",
             "position": "RUCK",
             "role": "RUCK",
-            "named_pos": null,
+            "named_pos": "RK",
             "is_ruck": 1,
             "tog": 79.0,
             "exp": {
@@ -14124,7 +14304,7 @@
             "player": "Rhett Bazzo",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "FB",
             "is_ruck": 0,
             "tog": 87.8,
             "exp": {
@@ -14169,7 +14349,7 @@
             "player": "Tylar Young",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "CHB",
             "is_ruck": 0,
             "tog": 92.0,
             "exp": {
@@ -14214,7 +14394,7 @@
             "player": "Jack Williams",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 77.4,
             "exp": {
@@ -14259,7 +14439,7 @@
             "player": "Brady Hough",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 77.8,
             "exp": {
@@ -14304,7 +14484,7 @@
             "player": "Harley Reid",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 80.8,
             "exp": {
@@ -14394,7 +14574,7 @@
             "player": "Bo Allan",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 78.8,
             "exp": {
@@ -14439,7 +14619,7 @@
             "player": "Jobe Shanahan",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "CHF",
             "is_ruck": 0,
             "tog": 88.4,
             "exp": {
@@ -14484,7 +14664,7 @@
             "player": "Hamish Davis",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 62.6,
             "exp": {
@@ -14664,7 +14844,7 @@
             "player": "Elliot Yeo",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "C",
             "is_ruck": 0,
             "tog": 72.0,
             "exp": {
@@ -14709,7 +14889,7 @@
             "player": "Tim Kelly",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "HFFL",
             "is_ruck": 0,
             "tog": 76.0,
             "exp": {
@@ -14754,7 +14934,7 @@
             "player": "Liam Duggan",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPL",
             "is_ruck": 0,
             "tog": 80.4,
             "exp": {
@@ -14840,11 +15020,56 @@
             }
           },
           {
+            "player_id": "CD_I990827",
+            "player": "Jack Graham",
+            "position": "MIDFIELDER",
+            "role": "MID",
+            "named_pos": "INT",
+            "is_ruck": 0,
+            "tog": 74.0,
+            "exp": {
+              "disposals": 15.96,
+              "goals": 0.244,
+              "kicks": 8.818,
+              "handballs": 8.337,
+              "marks": 1.959,
+              "tackles": 6.293,
+              "behinds": 0.233,
+              "totalClearances": 3.617,
+              "hitouts": 0.02,
+              "dreamTeamPoints": 67.936
+            },
+            "share": {
+              "disposals": 0.04819,
+              "goals": 0.02205,
+              "kicks": 0.04605,
+              "handballs": 0.05777,
+              "marks": 0.02415,
+              "tackles": 0.10786,
+              "behinds": 0.02812,
+              "totalClearances": 0.09048,
+              "hitouts": 0.0006,
+              "dreamTeamPoints": 0.04907
+            },
+            "sigma": {
+              "disposals": 5.026,
+              "goals": 0.524,
+              "kicks": 3.494,
+              "handballs": 3.425,
+              "marks": 1.592,
+              "tackles": 3.115,
+              "behinds": 0.485,
+              "totalClearances": 2.275,
+              "hitouts": 0.2,
+              "dreamTeamPoints": 22.049
+            }
+          },
+          {
             "player_id": "CD_I993820",
             "player": "Tom Cole",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 85.0,
             "exp": {
@@ -14889,7 +15114,7 @@
             "player": "Jake Waterman",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FF",
             "is_ruck": 0,
             "tog": 89.6,
             "exp": {
@@ -15096,7 +15321,7 @@
             "player": "Kysaiah Pickett",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 83.4,
             "exp": {
@@ -15456,7 +15681,7 @@
             "player": "Daniel Turner",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "FB",
             "is_ruck": 0,
             "tog": 98.4,
             "exp": {
@@ -15636,7 +15861,7 @@
             "player": "Caleb Windsor",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 68.0,
             "exp": {
@@ -15861,7 +16086,7 @@
             "player": "Jake Lever",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPL",
             "is_ruck": 0,
             "tog": 95.8,
             "exp": {
@@ -16826,7 +17051,7 @@
             "player": "Nick Vlastuin",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "BPR",
             "is_ruck": 0,
             "tog": 79.0,
             "exp": {
@@ -17123,7 +17348,7 @@
             "player": "Zac Bailey",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 81.0,
             "exp": {
@@ -17303,7 +17528,7 @@
             "player": "Kai Lohmann",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 75.6,
             "exp": {
@@ -17348,7 +17573,7 @@
             "player": "Darcy Wilmot",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 83.6,
             "exp": {
@@ -17393,7 +17618,7 @@
             "player": "James Tunstill",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 75.2,
             "exp": {
@@ -17528,7 +17753,7 @@
             "player": "Logan Morris",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FPR",
             "is_ruck": 0,
             "tog": 76.2,
             "exp": {
@@ -18313,7 +18538,7 @@
             "player": "Jaxon Prior",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": null,
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 84.2,
             "exp": {
@@ -18448,7 +18673,7 @@
             "player": "Sam Durham",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": null,
+            "named_pos": "C",
             "is_ruck": 0,
             "tog": 62.2,
             "exp": {
@@ -18538,7 +18763,7 @@
             "player": "Archie Perkins",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 77.2,
             "exp": {
@@ -18673,7 +18898,7 @@
             "player": "Nate Caddy",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": null,
+            "named_pos": "FF",
             "is_ruck": 0,
             "tog": 90.4,
             "exp": {
