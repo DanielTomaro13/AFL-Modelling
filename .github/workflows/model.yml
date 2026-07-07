@@ -30,5 +30,20 @@ jobs:
           git config user.name  "afl-model-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data/processed/player_match.parquet models/afl_models.joblib artifacts/*.json reports/*.csv || true
-          git commit -m "Refresh model artifacts [skip ci]" || echo "nothing to commit"
-          git push || echo "push skipped"
+          if git diff --cached --quiet; then
+            echo "No model changes to commit."
+            exit 0
+          fi
+          git commit -m "Refresh model artifacts [skip ci]"
+          # predict.yml pushes lineup refreshes to main every 3h, so this push is
+          # usually behind remote. Rebase-retry instead of a bare push whose
+          # rejection was silently swallowed — that left the committed joblib
+          # stale for days and broke predict.yml's load.
+          for i in 1 2 3 4 5; do
+            git push origin HEAD:main && exit 0
+            echo "Push rejected (attempt $i) — rebasing onto latest main..."
+            git fetch origin main
+            git rebase -X theirs origin/main || { git rebase --abort; exit 1; }
+          done
+          echo "Failed to push after 5 attempts." >&2
+          exit 1
