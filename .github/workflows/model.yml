@@ -5,6 +5,9 @@ on:
   schedule:
     - cron: "0 18 * * *"   # 18:00 UTC daily
   workflow_dispatch:
+permissions:
+  contents: write          # else the default GITHUB_TOKEN is read-only and the
+                           # artifact push 403s (predict.yml already sets this)
 concurrency:
   group: afl-model
   cancel-in-progress: false
