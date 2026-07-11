@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "round": 18,
-  "generated": "2026-07-11T07:44:46.818620+00:00",
+  "generated": "2026-07-11T10:12:17.068909+00:00",
   "dispersion": {
     "disposals": {
       "type": "normal",
@@ -547,7 +547,7 @@
             "player": "Zac Taylor",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "FPL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 74.6,
             "exp": {
@@ -862,7 +862,7 @@
             "player": "Taylor Walker",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": "INT",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 68.2,
             "exp": {
@@ -907,7 +907,7 @@
             "player": "Rory Laird",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "FPL",
             "is_ruck": 0,
             "tog": 81.0,
             "exp": {
@@ -1087,7 +1087,7 @@
             "player": "Ben Keays",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "WR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 82.0,
             "exp": {
@@ -1467,7 +1467,7 @@
             "player": "Oscar Adams",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "C",
             "is_ruck": 0,
             "tog": 74.8,
             "exp": {
@@ -1737,7 +1737,7 @@
             "player": "Will Graham",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 61.8,
             "exp": {
@@ -1962,7 +1962,7 @@
             "player": "Beau Addinsall",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "C",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 63.3,
             "exp": {
@@ -2097,7 +2097,7 @@
             "player": "Nick Holman",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": "WR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 74.6,
             "exp": {
@@ -4646,7 +4646,7 @@
             "player": "Francis Evans",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "INT",
+            "named_pos": "FPR",
             "is_ruck": 0,
             "tog": 74.0,
             "exp": {
@@ -4691,7 +4691,7 @@
             "player": "Lachlan Cowan",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "HBFL",
             "is_ruck": 0,
             "tog": 83.8,
             "exp": {
@@ -5006,7 +5006,7 @@
             "player": "Talor Byrne",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "FPR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 62.6,
             "exp": {
@@ -5186,7 +5186,7 @@
             "player": "Nic Newman",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "HBFL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 83.2,
             "exp": {
@@ -5476,7 +5476,7 @@
             "player": "Harry Morrison",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 82.4,
             "exp": {
@@ -5701,7 +5701,7 @@
             "player": "Jack Ginnivan",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "WR",
+            "named_pos": "FPL",
             "is_ruck": 0,
             "tog": 82.2,
             "exp": {
@@ -5791,7 +5791,7 @@
             "player": "Josh Ward",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 80.0,
             "exp": {
@@ -5926,7 +5926,7 @@
             "player": "Cam Mackenzie",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "R",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 71.4,
             "exp": {
@@ -6016,7 +6016,7 @@
             "player": "Bailey Macdonald",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "HBFR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 78.0,
             "exp": {
@@ -6106,7 +6106,7 @@
             "player": "Matt Hill",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "FPL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 57.0,
             "exp": {
@@ -6241,7 +6241,7 @@
             "player": "Karl Amon",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 81.4,
             "exp": {
