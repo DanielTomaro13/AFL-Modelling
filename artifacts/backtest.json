@@ -5,14 +5,14 @@
   ],
   "n_train": 88585,
   "n_holdout": 19608,
-  "generated": "2026-07-12T19:08:18.727326+00:00",
+  "generated": "2026-07-13T19:29:53.219976+00:00",
   "metrics": [
     {
       "target": "disposals",
       "type": "normal",
       "n": 19608,
-      "model_mae": 3.865,
-      "baseline_mae": 4.107,
+      "model_mae": 3.863,
+      "baseline_mae": 4.106,
       "improvement_pct": 5.9,
       "team_cv": 0.083
     },
@@ -20,8 +20,8 @@
       "target": "kicks",
       "type": "normal",
       "n": 19608,
-      "model_mae": 2.808,
-      "baseline_mae": 2.977,
+      "model_mae": 2.809,
+      "baseline_mae": 2.978,
       "improvement_pct": 5.7,
       "team_cv": 0.092
     },
@@ -29,18 +29,18 @@
       "target": "handballs",
       "type": "normal",
       "n": 19608,
-      "model_mae": 2.307,
-      "baseline_mae": 2.426,
-      "improvement_pct": 4.9,
+      "model_mae": 2.308,
+      "baseline_mae": 2.425,
+      "improvement_pct": 4.8,
       "team_cv": 0.137
     },
     {
       "target": "marks",
       "type": "normal",
       "n": 19608,
-      "model_mae": 1.804,
+      "model_mae": 1.803,
       "baseline_mae": 1.922,
-      "improvement_pct": 6.1,
+      "improvement_pct": 6.2,
       "team_cv": 0.21
     },
     {
@@ -58,24 +58,24 @@
       "n": 19608,
       "model_mae": 1.012,
       "baseline_mae": 1.051,
-      "improvement_pct": 3.8,
-      "team_cv": 0.195
+      "improvement_pct": 3.7,
+      "team_cv": 0.196
     },
     {
       "target": "hitouts",
       "type": "normal",
       "n": 19608,
-      "model_mae": 0.608,
+      "model_mae": 0.606,
       "baseline_mae": 0.604,
-      "improvement_pct": -0.7,
-      "team_cv": 0.329
+      "improvement_pct": -0.3,
+      "team_cv": 0.331
     },
     {
       "target": "dreamTeamPoints",
       "type": "normal",
       "n": 19608,
-      "model_mae": 17.334,
-      "baseline_mae": 18.425,
+      "model_mae": 17.337,
+      "baseline_mae": 18.426,
       "improvement_pct": 5.9,
       "team_cv": 0.088
     },
@@ -83,19 +83,19 @@
       "target": "goals",
       "type": "poisson",
       "n": 19608,
-      "model_mae": 0.511,
+      "model_mae": 0.51,
       "baseline_mae": 0.518,
-      "improvement_pct": 1.5,
-      "team_cv": 0.32
+      "improvement_pct": 1.6,
+      "team_cv": 0.321
     },
     {
       "target": "behinds",
       "type": "poisson",
       "n": 19608,
-      "model_mae": 0.429,
+      "model_mae": 0.43,
       "baseline_mae": 0.438,
-      "improvement_pct": 2.0,
-      "team_cv": 0.351
+      "improvement_pct": 1.8,
+      "team_cv": 0.35
     }
   ]
 }
