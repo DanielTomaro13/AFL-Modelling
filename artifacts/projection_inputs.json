@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "round": 19,
-  "generated": "2026-07-17T07:58:08.597601+00:00",
+  "generated": "2026-07-17T10:42:28.262329+00:00",
   "dispersion": {
     "disposals": {
       "type": "normal",
@@ -17166,7 +17166,7 @@
             "player": "James Rowbottom",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": "HFFR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 78.6,
             "exp": {
@@ -17436,7 +17436,7 @@
             "player": "Braeden Campbell",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "INT",
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 77.2,
             "exp": {
@@ -18131,7 +18131,7 @@
             "player": "Isaac Cumming",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "WR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 71.2,
             "exp": {
@@ -18716,7 +18716,7 @@
             "player": "Luke Nankervis",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "WL",
             "is_ruck": 0,
             "tog": 80.8,
             "exp": {
@@ -18806,7 +18806,7 @@
             "player": "Hugo Hall-Kahan",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "WL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 71.8,
             "exp": {
@@ -19031,7 +19031,7 @@
             "player": "Ben Keays",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "INT",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 83.2,
             "exp": {
