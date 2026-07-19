@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "round": 19,
-  "generated": "2026-07-19T01:59:48.066970+00:00",
+  "generated": "2026-07-19T05:45:54.420615+00:00",
   "dispersion": {
     "disposals": {
       "type": "normal",
@@ -4374,7 +4374,7 @@
             "player": "Xavier Duursma",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "HFFR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 80.6,
             "exp": {
@@ -4464,7 +4464,7 @@
             "player": "Jaxon Prior",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 86.2,
             "exp": {
@@ -4959,7 +4959,7 @@
             "player": "Jaxon Artemis",
             "position": NaN,
             "role": "OTHER",
-            "named_pos": "WR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 0.0,
             "exp": {
@@ -5004,7 +5004,7 @@
             "player": "Jacob Farrow",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 80.4,
             "exp": {
@@ -5699,7 +5699,7 @@
             "player": "Conor Stone",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 68.6,
             "exp": {
@@ -6059,7 +6059,7 @@
             "player": "Joe Fonti",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "HBFR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 83.0,
             "exp": {
@@ -6194,7 +6194,7 @@
             "player": "Lachie Whitfield",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "WR",
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 71.8,
             "exp": {
@@ -10678,7 +10678,7 @@
             "player": "Daniel Rioli",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "WR",
             "is_ruck": 0,
             "tog": 75.6,
             "exp": {
@@ -11353,7 +11353,7 @@
             "player": "Jai Murray",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "WL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 70.4,
             "exp": {
@@ -11443,7 +11443,7 @@
             "player": "Dylan Patterson",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "INT",
+            "named_pos": "WL",
             "is_ruck": 0,
             "tog": 59.5,
             "exp": {
@@ -11578,7 +11578,7 @@
             "player": "Touk Miller",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": "WR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 85.8,
             "exp": {
@@ -11868,7 +11868,7 @@
             "player": "Nick Coffield",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "HBFR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 77.8,
             "exp": {
@@ -12003,7 +12003,7 @@
             "player": "Lachlan McNeil",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "HFFL",
             "is_ruck": 0,
             "tog": 59.2,
             "exp": {
@@ -12093,7 +12093,7 @@
             "player": "Jordan Croft",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": "CHF",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 78.0,
             "exp": {
@@ -12273,7 +12273,7 @@
             "player": "Jedd Busslinger",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "HBFR",
             "is_ruck": 0,
             "tog": 96.4,
             "exp": {
@@ -12453,7 +12453,7 @@
             "player": "Josh Dolan",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "INT",
+            "named_pos": "CHF",
             "is_ruck": 0,
             "tog": 68.2,
             "exp": {
@@ -12498,7 +12498,7 @@
             "player": "Sam Davidson",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "HFFL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 79.0,
             "exp": {
@@ -21124,7 +21124,7 @@
             "player": "Noah Balta",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "BPL",
             "is_ruck": 0,
             "tog": 76.8,
             "exp": {
@@ -21169,7 +21169,7 @@
             "player": "Rhyan Mansell",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "HFFR",
+            "named_pos": "FPR",
             "is_ruck": 0,
             "tog": 75.0,
             "exp": {
@@ -21214,7 +21214,7 @@
             "player": "Mykelti Lefau",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": "FPR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 86.2,
             "exp": {
@@ -21259,7 +21259,7 @@
             "player": "Hugo Ralphsmith",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "HFFL",
             "is_ruck": 0,
             "tog": 85.6,
             "exp": {
@@ -21349,7 +21349,7 @@
             "player": "Tom Brown",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "CHB",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 80.0,
             "exp": {
@@ -21484,7 +21484,7 @@
             "player": "Seth Campbell",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "HFFL",
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 76.2,
             "exp": {
@@ -21529,7 +21529,7 @@
             "player": "Sam Cumming",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "R",
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 72.8,
             "exp": {
@@ -21574,7 +21574,7 @@
             "player": "Sam Lalor",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "FF",
+            "named_pos": "FPL",
             "is_ruck": 0,
             "tog": 76.2,
             "exp": {
@@ -21709,7 +21709,7 @@
             "player": "Taj Hotton",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": "RR",
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 68.0,
             "exp": {
@@ -21799,7 +21799,7 @@
             "player": "Sam Grlj",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "CHB",
             "is_ruck": 0,
             "tog": 74.2,
             "exp": {
@@ -21889,7 +21889,7 @@
             "player": "Tom Lynch",
             "position": "KEY_FORWARD",
             "role": "FWD",
-            "named_pos": "FPL",
+            "named_pos": "FF",
             "is_ruck": 0,
             "tog": 84.6,
             "exp": {
@@ -21934,7 +21934,7 @@
             "player": "Nick Vlastuin",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "FB",
+            "named_pos": "HBFL",
             "is_ruck": 0,
             "tog": 79.2,
             "exp": {
@@ -21979,7 +21979,7 @@
             "player": "Nathan Broad",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "BPL",
+            "named_pos": "FB",
             "is_ruck": 0,
             "tog": 84.8,
             "exp": {
@@ -22069,7 +22069,7 @@
             "player": "Jayden Short",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "HBFL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 80.6,
             "exp": {
@@ -22314,7 +22314,7 @@
             "player": "Massimo D'Ambrosio",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "HFFR",
             "is_ruck": 0,
             "tog": 81.6,
             "exp": {
@@ -22404,7 +22404,7 @@
             "player": "Jack Ginnivan",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "INT",
+            "named_pos": "WL",
             "is_ruck": 0,
             "tog": 81.4,
             "exp": {
@@ -22584,7 +22584,7 @@
             "player": "William McCabe",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": "WL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 71.0,
             "exp": {
@@ -22719,7 +22719,7 @@
             "player": "Josh Weddle",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "HFFR",
+            "named_pos": "CHB",
             "is_ruck": 0,
             "tog": 86.6,
             "exp": {
@@ -22764,7 +22764,7 @@
             "player": "Noah Mraz",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": "CHB",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 83.0,
             "exp": {
