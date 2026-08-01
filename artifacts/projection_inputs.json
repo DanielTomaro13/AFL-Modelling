@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "round": 21,
-  "generated": "2026-08-01T05:49:40.038427+00:00",
+  "generated": "2026-08-01T08:09:42.072479+00:00",
   "dispersion": {
     "disposals": {
       "type": "normal",
@@ -17119,7 +17119,7 @@
             "player": "Miles Bergman",
             "position": "MEDIUM_DEFENDER",
             "role": "DEF",
-            "named_pos": "BPR",
+            "named_pos": "RR",
             "is_ruck": 0,
             "tog": 66.4,
             "exp": {
@@ -17299,7 +17299,7 @@
             "player": "Jack Watkins",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "WL",
             "is_ruck": 0,
             "tog": 65.6,
             "exp": {
@@ -17524,7 +17524,7 @@
             "player": "Christian Moraes",
             "position": "MEDIUM_FORWARD",
             "role": "FWD",
-            "named_pos": "WL",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 65.2,
             "exp": {
@@ -17704,7 +17704,7 @@
             "player": "Balyn O'Brien",
             "position": "KEY_DEFENDER",
             "role": "DEF",
-            "named_pos": "INT",
+            "named_pos": "BPR",
             "is_ruck": 0,
             "tog": 70.0,
             "exp": {
@@ -17839,7 +17839,7 @@
             "player": "Ollie Wines",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "RR",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 70.2,
             "exp": {
@@ -18084,7 +18084,7 @@
             "player": "Xavier O'Halloran",
             "position": "MIDFIELDER",
             "role": "MID",
-            "named_pos": "INT",
+            "named_pos": "R",
             "is_ruck": 0,
             "tog": 74.4,
             "exp": {
@@ -18444,7 +18444,7 @@
             "player": "Harry Rowston",
             "position": "MIDFIELDER_FORWARD",
             "role": "MID",
-            "named_pos": "R",
+            "named_pos": "INT",
             "is_ruck": 0,
             "tog": 62.6,
             "exp": {
