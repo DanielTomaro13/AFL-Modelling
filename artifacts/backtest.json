@@ -5,14 +5,14 @@
   ],
   "n_train": 89827,
   "n_holdout": 19608,
-  "generated": "2026-08-03T19:34:32.027024+00:00",
+  "generated": "2026-08-04T19:38:49.309266+00:00",
   "metrics": [
     {
       "target": "disposals",
       "type": "normal",
       "n": 19608,
-      "model_mae": 3.859,
-      "baseline_mae": 4.107,
+      "model_mae": 3.858,
+      "baseline_mae": 4.106,
       "improvement_pct": 6.0,
       "team_cv": 0.083
     },
@@ -20,62 +20,62 @@
       "target": "kicks",
       "type": "normal",
       "n": 19608,
-      "model_mae": 2.814,
-      "baseline_mae": 2.977,
-      "improvement_pct": 5.5,
+      "model_mae": 2.816,
+      "baseline_mae": 2.978,
+      "improvement_pct": 5.4,
       "team_cv": 0.092
     },
     {
       "target": "handballs",
       "type": "normal",
       "n": 19608,
-      "model_mae": 2.305,
-      "baseline_mae": 2.426,
-      "improvement_pct": 5.0,
+      "model_mae": 2.308,
+      "baseline_mae": 2.425,
+      "improvement_pct": 4.8,
       "team_cv": 0.137
     },
     {
       "target": "marks",
       "type": "normal",
       "n": 19608,
-      "model_mae": 1.803,
+      "model_mae": 1.804,
       "baseline_mae": 1.922,
-      "improvement_pct": 6.2,
+      "improvement_pct": 6.1,
       "team_cv": 0.21
     },
     {
       "target": "tackles",
       "type": "normal",
       "n": 19608,
-      "model_mae": 1.424,
+      "model_mae": 1.423,
       "baseline_mae": 1.52,
-      "improvement_pct": 6.3,
+      "improvement_pct": 6.4,
       "team_cv": 0.218
     },
     {
       "target": "totalClearances",
       "type": "normal",
       "n": 19608,
-      "model_mae": 1.012,
+      "model_mae": 1.01,
       "baseline_mae": 1.051,
-      "improvement_pct": 3.8,
+      "improvement_pct": 3.9,
       "team_cv": 0.195
     },
     {
       "target": "hitouts",
       "type": "normal",
       "n": 19608,
-      "model_mae": 0.619,
+      "model_mae": 0.621,
       "baseline_mae": 0.604,
-      "improvement_pct": -2.5,
-      "team_cv": 0.329
+      "improvement_pct": -2.7,
+      "team_cv": 0.33
     },
     {
       "target": "dreamTeamPoints",
       "type": "normal",
       "n": 19608,
-      "model_mae": 17.305,
-      "baseline_mae": 18.424,
+      "model_mae": 17.307,
+      "baseline_mae": 18.426,
       "improvement_pct": 6.1,
       "team_cv": 0.088
     },
@@ -83,19 +83,19 @@
       "target": "goals",
       "type": "poisson",
       "n": 19608,
-      "model_mae": 0.511,
+      "model_mae": 0.509,
       "baseline_mae": 0.518,
-      "improvement_pct": 1.5,
+      "improvement_pct": 1.8,
       "team_cv": 0.322
     },
     {
       "target": "behinds",
       "type": "poisson",
       "n": 19608,
-      "model_mae": 0.429,
+      "model_mae": 0.43,
       "baseline_mae": 0.438,
-      "improvement_pct": 2.0,
-      "team_cv": 0.354
+      "improvement_pct": 1.7,
+      "team_cv": 0.351
     }
   ]
 }
