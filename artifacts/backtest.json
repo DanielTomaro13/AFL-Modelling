@@ -5,15 +5,15 @@
   ],
   "n_train": 91345,
   "n_holdout": 19605,
-  "generated": "2026-09-08T20:45:59.672555+00:00",
+  "generated": "2026-09-09T20:31:13.625664+00:00",
   "metrics": [
     {
       "target": "disposals",
       "type": "normal",
       "n": 19605,
-      "model_mae": 3.856,
+      "model_mae": 3.861,
       "baseline_mae": 4.104,
-      "improvement_pct": 6.0,
+      "improvement_pct": 5.9,
       "team_cv": 0.084
     },
     {
@@ -31,26 +31,26 @@
       "n": 19605,
       "model_mae": 2.307,
       "baseline_mae": 2.425,
-      "improvement_pct": 4.8,
+      "improvement_pct": 4.9,
       "team_cv": 0.137
     },
     {
       "target": "marks",
       "type": "normal",
       "n": 19605,
-      "model_mae": 1.801,
+      "model_mae": 1.803,
       "baseline_mae": 1.922,
-      "improvement_pct": 6.3,
+      "improvement_pct": 6.2,
       "team_cv": 0.212
     },
     {
       "target": "tackles",
       "type": "normal",
       "n": 19605,
-      "model_mae": 1.427,
+      "model_mae": 1.425,
       "baseline_mae": 1.52,
-      "improvement_pct": 6.1,
-      "team_cv": 0.215
+      "improvement_pct": 6.2,
+      "team_cv": 0.216
     },
     {
       "target": "totalClearances",
@@ -58,7 +58,7 @@
       "n": 19605,
       "model_mae": 1.011,
       "baseline_mae": 1.051,
-      "improvement_pct": 3.8,
+      "improvement_pct": 3.9,
       "team_cv": 0.196
     },
     {
@@ -74,7 +74,7 @@
       "target": "dreamTeamPoints",
       "type": "normal",
       "n": 19605,
-      "model_mae": 17.311,
+      "model_mae": 17.307,
       "baseline_mae": 18.414,
       "improvement_pct": 6.0,
       "team_cv": 0.088
@@ -85,17 +85,17 @@
       "n": 19605,
       "model_mae": 0.51,
       "baseline_mae": 0.519,
-      "improvement_pct": 1.7,
+      "improvement_pct": 1.6,
       "team_cv": 0.314
     },
     {
       "target": "behinds",
       "type": "poisson",
       "n": 19605,
-      "model_mae": 0.428,
+      "model_mae": 0.429,
       "baseline_mae": 0.438,
-      "improvement_pct": 2.2,
-      "team_cv": 0.349
+      "improvement_pct": 2.1,
+      "team_cv": 0.348
     }
   ]
 }
